@@ -4,5 +4,5 @@
 
 (
 cd github.com/interTwin-eu/itwinai &&
-    pytest tests --json-report  --json-report-indent 4
+    hadolint use-cases/mnist/torch/Dockerfile --failure-threshold error
 )
