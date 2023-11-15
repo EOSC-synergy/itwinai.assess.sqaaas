@@ -11,6 +11,15 @@ pipeline {
 
     stages {
         stage('SQA baseline criterion: QC.Acc & QC.Doc & QC.Lic & QC.Sec & QC.Sty & QC.Ver') {
+            when {
+                not {
+                    anyOf {
+                        changeset ".badge/*"
+                        changeset ".report/*"
+                        changeset "README.md"
+                    }
+                }
+            }
             steps {
                 script {
                     projectConfig = pipelineConfig(
