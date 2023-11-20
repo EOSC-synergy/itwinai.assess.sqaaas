@@ -12,18 +12,13 @@ pipeline {
     stages {
         stage('SQA baseline criterion: QC.Acc & QC.Doc & QC.Lic & QC.Sec & QC.Sty & QC.Ver') {
             when {
-                not {
-                    anyOf {
-                        changeset ".badge/*"
-                        changeset ".report/*"
-                        changeset "README.md"
-                        changeset ""
-                    }
+                anyOf {
+                    changeset ".sqa/*"
+                    changeset "Jenkinsfile"
                 }
             }
             steps {
                 script {
-                    println(currentBuild.changeSets.size())
                     projectConfig = pipelineConfig(
                         configFile: '.sqa/config.yml',
                         scmConfigs: [ localBranch: true ],
