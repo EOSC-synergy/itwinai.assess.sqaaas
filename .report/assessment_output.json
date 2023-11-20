@@ -62,37 +62,37 @@
                     "to_fulfill": [
                         "QC.Ver",
                         "QC.Lic",
-                        "QC.Acc",
                         "QC.Doc",
-                        "QC.Met"
+                        "QC.Met",
+                        "QC.Acc"
                     ],
                     "missing": [
+                        "QC.Met",
                         "QC.Ver",
-                        "QC.Doc",
                         "QC.Lic",
                         "QC.Acc",
-                        "QC.Met"
+                        "QC.Doc"
                     ],
                     "fulfilled": []
                 },
                 "gold": {
                     "to_fulfill": [
                         "QC.Ver",
-                        "QC.Lic",
-                        "QC.Acc",
                         "QC.Sec",
+                        "QC.Lic",
                         "QC.Doc",
                         "QC.Met",
+                        "QC.Acc",
                         "QC.Sty"
                     ],
                     "missing": [
+                        "QC.Met",
                         "QC.Sec",
                         "QC.Ver",
-                        "QC.Sty",
-                        "QC.Doc",
                         "QC.Lic",
                         "QC.Acc",
-                        "QC.Met"
+                        "QC.Doc",
+                        "QC.Sty"
                     ],
                     "fulfilled": []
                 }
