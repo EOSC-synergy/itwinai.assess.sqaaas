@@ -1,11 +1,11 @@
 {
     "meta": {
         "version": "2.10.0",
-        "report_json_url": "https://raw.githubusercontent.com/eosc-synergy/itwinai.assess.sqaaas/3dgan_integration/.report/assessment_output.json"
+        "report_json_url": "https://raw.githubusercontent.com/eosc-synergy/itwinai.assess.sqaaas/sqaaas-code/.report/assessment_output.json"
     },
     "repository": {
-        "tag": "3dgan_integration",
-        "commit_id": "9ab6ec1498eaeac36bffc04805eea7a9c9f37fe8",
+        "tag": "sqaaas-code",
+        "commit_id": "3335d7e599833f254a1c357b14dc9e387b68a8db",
         "name": "interTwin-eu/itwinai",
         "url": "https://github.com/interTwin-eu/itwinai",
         "avatar_url": "https://avatars.githubusercontent.com/u/123980631?v=4",
@@ -47,52 +47,52 @@
             "criteria": {
                 "bronze": {
                     "to_fulfill": [
+                        "QC.Doc",
                         "QC.Lic",
-                        "QC.Acc",
-                        "QC.Doc"
+                        "QC.Acc"
                     ],
                     "missing": [
+                        "QC.Doc",
                         "QC.Lic",
-                        "QC.Acc",
-                        "QC.Doc"
+                        "QC.Acc"
                     ],
                     "fulfilled": []
                 },
                 "silver": {
                     "to_fulfill": [
                         "QC.Ver",
-                        "QC.Acc",
                         "QC.Lic",
+                        "QC.Doc",
                         "QC.Met",
-                        "QC.Doc"
+                        "QC.Acc"
                     ],
                     "missing": [
+                        "QC.Ver",
                         "QC.Met",
-                        "QC.Doc",
                         "QC.Lic",
-                        "QC.Acc",
-                        "QC.Ver"
+                        "QC.Doc",
+                        "QC.Acc"
                     ],
                     "fulfilled": []
                 },
                 "gold": {
                     "to_fulfill": [
-                        "QC.Sec",
                         "QC.Ver",
-                        "QC.Acc",
                         "QC.Lic",
-                        "QC.Sty",
+                        "QC.Doc",
+                        "QC.Sec",
                         "QC.Met",
-                        "QC.Doc"
+                        "QC.Acc",
+                        "QC.Sty"
                     ],
                     "missing": [
                         "QC.Ver",
+                        "QC.Sty",
+                        "QC.Lic",
+                        "QC.Doc",
                         "QC.Sec",
                         "QC.Acc",
-                        "QC.Lic",
-                        "QC.Sty",
-                        "QC.Met",
-                        "QC.Doc"
+                        "QC.Met"
                     ],
                     "fulfilled": []
                 }
