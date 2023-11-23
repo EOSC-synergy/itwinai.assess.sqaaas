@@ -4,5 +4,5 @@
 
 (
 cd github.com/interTwin-eu/itwinai &&
-    hadolint containers/Dockerfile --failure-threshold error
+    hadolint containers/Dockerfile use-cases/3dgan/Dockerfile use-cases/mnist/torch/Dockerfile --failure-threshold error
 )
