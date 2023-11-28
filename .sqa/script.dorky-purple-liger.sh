@@ -8,5 +8,5 @@ cd github.com/interTwin-eu/itwinai &&
     ls -ld . &&
     micromamba env create -p /tmp/.venv --file environment-cern.yml -y&&
     echo "------>>> arrives here" &&
-    micromamba run -p /tmp/.venv pytest ./tests/
+    micromamba run -p /tmp/.venv pytest ./tests/ -o cache_dir=/tmp/.pytest_cache
 )
