@@ -4,5 +4,6 @@
 
 (
 cd github.com/interTwin-eu/itwinai &&
-    hadolint use-cases/3dgan/Dockerfile use-cases/mnist/torch/Dockerfile --failure-threshold error
+    micromamba env create -p ./.venv --file environment-cern.yml -y&&
+    micromamba run -p ./.venv pytest ./tests/
 )
