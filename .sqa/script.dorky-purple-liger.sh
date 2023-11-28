@@ -4,6 +4,9 @@
 
 (
 cd github.com/interTwin-eu/itwinai &&
+    whoami &&
+    ls -ld . &&
     micromamba env create -p ./.venv --file environment-cern.yml -y&&
+    echo "------>>> arrives here" &&
     micromamba run -p ./.venv pytest ./tests/
 )
