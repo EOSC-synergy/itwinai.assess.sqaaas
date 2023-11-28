@@ -6,8 +6,7 @@
 cd github.com/interTwin-eu/itwinai &&
     whoami &&
     ls -ld . &&
-    mkdir -p kk/kk2 &&
-    micromamba env create -p ./.venv --file environment-cern.yml -y&&
+    micromamba env create -p /tmp/.venv --file environment-cern.yml -y&&
     echo "------>>> arrives here" &&
-    micromamba run -p ./.venv pytest ./tests/
+    micromamba run -p /tmp/.venv pytest ./tests/
 )
