@@ -61,7 +61,7 @@ sqa_criteria:
     repos:
       github.com/interTwin-eu/itwinai commands:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-purple-liger.sh
+        - /usr/bin/env sh .sqa/script.dorky-purple-liger.sh 
         container: qc.uni_randy-amethyst-akbash
   QC.Ver:
     repos:
