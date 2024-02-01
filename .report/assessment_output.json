@@ -1,23 +1,26 @@
 {
     "meta": {
-        "version": "2.10.0",
+        "version": "3.0.0",
         "report_json_url": "https://raw.githubusercontent.com/eosc-synergy/itwinai.assess.sqaaas/main/.report/assessment_output.json"
     },
-    "repository": {
-        "tag": "main",
-        "commit_id": "fb8f16d8bc20e671c8133a9ea997aba82bd90169",
-        "name": "interTwin-eu/itwinai",
-        "url": "https://github.com/interTwin-eu/itwinai",
-        "avatar_url": "https://avatars.githubusercontent.com/u/123980631?v=4",
-        "description": null,
-        "languages": null,
-        "topics": null,
-        "stargazers_count": null,
-        "watchers_count": null,
-        "contributors_count": null,
-        "forks_count": null,
-        "badge_status": "bronze"
-    },
+    "repository": [
+        {
+            "url": "https://github.com/interTwin-eu/itwinai",
+            "name": "interTwin-eu/itwinai",
+            "tag": "main",
+            "commit_id": "87d44b1da0ec173133413095744ba91f0561da03",
+            "is_main_repo": true,
+            "avatar_url": "https://avatars.githubusercontent.com/u/123980631?v=4",
+            "description": null,
+            "languages": null,
+            "topics": null,
+            "stargazers_count": null,
+            "watchers_count": null,
+            "contributors_count": null,
+            "forks_count": null,
+            "badge_status": "bronze"
+        }
+    ],
     "report": {
         "QC.Acc": {
             "valid": true,
@@ -49,7 +52,7 @@
                                         "git rev-parse --is-inside-work-tree"
                                     ],
                                     "stdout_text": "true",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/267/execution/node/34/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/270/execution/node/34/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/itwinai.assess.sqaaas"
@@ -100,8 +103,8 @@
                                     "stdout_command": [
                                         "find_doc_files.py --file_type all"
                                     ],
-                                    "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 4151}], \"CODE_OF_CONDUCT\": [{\"file_name\": \".github/CODE_OF_CONDUCT.md\", \"size\": 3969}], \"CONTRIBUTING\": [{\"file_name\": \"CONTRIBUTING.md\", \"size\": 3654}]}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/267/execution/node/43/log?consoleFull"
+                                    "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 4428}], \"CODE_OF_CONDUCT\": [{\"file_name\": \".github/CODE_OF_CONDUCT.md\", \"size\": 3969}], \"CONTRIBUTING\": [{\"file_name\": \"CONTRIBUTING.md\", \"size\": 3654}]}",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/270/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/itwinai.assess.sqaaas"
@@ -115,7 +118,7 @@
                                 "README": [
                                     {
                                         "file_name": "README.md",
-                                        "size": 4151
+                                        "size": 4428
                                     }
                                 ],
                                 "CODE_OF_CONDUCT": [
@@ -161,8 +164,8 @@
                                     "stdout_command": [
                                         "find_doc_files.py --file_type all"
                                     ],
-                                    "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 4151}], \"CODE_OF_CONDUCT\": [{\"file_name\": \".github/CODE_OF_CONDUCT.md\", \"size\": 3969}], \"CONTRIBUTING\": [{\"file_name\": \"CONTRIBUTING.md\", \"size\": 3654}]}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/267/execution/node/43/log?consoleFull"
+                                    "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 4428}], \"CODE_OF_CONDUCT\": [{\"file_name\": \".github/CODE_OF_CONDUCT.md\", \"size\": 3969}], \"CONTRIBUTING\": [{\"file_name\": \"CONTRIBUTING.md\", \"size\": 3654}]}",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/270/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/itwinai.assess.sqaaas"
@@ -176,7 +179,7 @@
                                 "README": [
                                     {
                                         "file_name": "README.md",
-                                        "size": 4151
+                                        "size": 4428
                                     }
                                 ],
                                 "CODE_OF_CONDUCT": [
@@ -222,8 +225,8 @@
                                     "stdout_command": [
                                         "find_doc_files.py --file_type all"
                                     ],
-                                    "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 4151}], \"CODE_OF_CONDUCT\": [{\"file_name\": \".github/CODE_OF_CONDUCT.md\", \"size\": 3969}], \"CONTRIBUTING\": [{\"file_name\": \"CONTRIBUTING.md\", \"size\": 3654}]}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/267/execution/node/43/log?consoleFull"
+                                    "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 4428}], \"CODE_OF_CONDUCT\": [{\"file_name\": \".github/CODE_OF_CONDUCT.md\", \"size\": 3969}], \"CONTRIBUTING\": [{\"file_name\": \"CONTRIBUTING.md\", \"size\": 3654}]}",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/270/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/itwinai.assess.sqaaas"
@@ -237,7 +240,7 @@
                                 "README": [
                                     {
                                         "file_name": "README.md",
-                                        "size": 4151
+                                        "size": 4428
                                     }
                                 ],
                                 "CODE_OF_CONDUCT": [
@@ -281,7 +284,7 @@
                                         "git rev-parse --is-inside-work-tree"
                                     ],
                                     "stdout_text": "true",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/267/execution/node/52/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/270/execution/node/52/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/itwinai.assess.sqaaas"
@@ -295,289 +298,11 @@
                         }
                     ],
                     "valid": true
-                },
-                "QC.Doc02.X": {
-                    "description": "Are docs following a style for the Markdown markup language?",
-                    "requirement_level": "MAY",
-                    "hint": "When using a docs-as-code approach, the style of the markup language is being checked. SQAaaS relies on <a href=\"https://github.com/markdownlint/markdownlint/\" target=\"_blank\">markdownlint</a> for Markdown files and <a href=\"https://github.com/twolfson/restructuredtext-lint/\" target=\"_blank\">restructuredtext-lint</a> for reStructuredText",
-                    "evidence": [
-                        {
-                            "valid": false,
-                            "message": "Docs are not fully compliant with markdownlint standard",
-                            "plugin": {
-                                "name": "report2sqaaas-plugin-markdownlint",
-                                "version": "1.2.0"
-                            },
-                            "tool": {
-                                "name": "markdownlint",
-                                "lang": "Markdown",
-                                "version": "0.11.0",
-                                "docker": {
-                                    "dockerfile": "QC.Doc/markdownlint/Dockerfile",
-                                    "reviewed": "1970-01-01"
-                                },
-                                "ci": {
-                                    "name": "QC.Doc github.com/interTwin-eu/itwinai markdownlint",
-                                    "status": "FAILED",
-                                    "stdout_command": [
-                                        "mdl --json ."
-                                    ],
-                                    "stdout_text": "[{\"filename\":\"./AUTHORS.md\",\"line\":5,\"rule\":\"MD009\",\"aliases\":[\"no-trailing-spaces\"],\"description\":\"Trailing spaces\"},{\"filename\":\"./AUTHORS.md\",\"line\":6,\"rule\":\"MD009\",\"aliases\":[\"no-trailing-spaces\"],\"description\":\"Trailing spaces\"},{\"filename\":\"./README.md\",\"line\":7,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./README.md\",\"line\":25,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./README.md\",\"line\":26,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./README.md\",\"line\":27,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./README.md\",\"line\":28,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./README.md\",\"line\":29,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./README.md\",\"line\":35,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./README.md\",\"line\":125,\"rule\":\"MD032\",\"aliases\":[\"blanks-around-lists\"],\"description\":\"Lists should be surrounded by blank lines\"},{\"filename\":\"./README.md\",\"line\":127,\"rule\":\"MD032\",\"aliases\":[\"blanks-around-lists\"],\"description\":\"Lists should be surrounded by blank lines\"},{\"filename\":\"./docs/README.md\",\"line\":71,\"rule\":\"MD007\",\"aliases\":[\"ul-indent\"],\"description\":\"Unordered list indentation\"},{\"filename\":\"./docs/README.md\",\"line\":11,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/README.md\",\"line\":12,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/README.md\",\"line\":16,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/README.md\",\"line\":36,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/README.md\",\"line\":51,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/README.md\",\"line\":71,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/README.md\",\"line\":72,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/README.md\",\"line\":98,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/README.md\",\"line\":99,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/README.md\",\"line\":100,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/README.md\",\"line\":101,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/README.md\",\"line\":106,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/README.md\",\"line\":107,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/README.md\",\"line\":109,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/README.md\",\"line\":113,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/README.md\",\"line\":114,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/README.md\",\"line\":148,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/README.md\",\"line\":149,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/README.md\",\"line\":162,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/README.md\",\"line\":163,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/README.md\",\"line\":164,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/README.md\",\"line\":166,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/README.md\",\"line\":68,\"rule\":\"MD029\",\"aliases\":[\"ol-prefix\"],\"description\":\"Ordered list item prefix\"},{\"filename\":\"./docs/README.md\",\"line\":70,\"rule\":\"MD029\",\"aliases\":[\"ol-prefix\"],\"description\":\"Ordered list item prefix\"},{\"filename\":\"./docs/README.md\",\"line\":80,\"rule\":\"MD029\",\"aliases\":[\"ol-prefix\"],\"description\":\"Ordered list item prefix\"},{\"filename\":\"./docs/README.md\",\"line\":82,\"rule\":\"MD029\",\"aliases\":[\"ol-prefix\"],\"description\":\"Ordered list item prefix\"},{\"filename\":\"./docs/README.md\",\"line\":109,\"rule\":\"MD029\",\"aliases\":[\"ol-prefix\"],\"description\":\"Ordered list item prefix\"},{\"filename\":\"./docs/README.md\",\"line\":127,\"rule\":\"MD029\",\"aliases\":[\"ol-prefix\"],\"description\":\"Ordered list item prefix\"},{\"filename\":\"./docs/README.md\",\"line\":139,\"rule\":\"MD029\",\"aliases\":[\"ol-prefix\"],\"description\":\"Ordered list item prefix\"},{\"filename\":\"./docs/README.md\",\"line\":148,\"rule\":\"MD029\",\"aliases\":[\"ol-prefix\"],\"description\":\"Ordered list item prefix\"},{\"filename\":\"./docs/README.md\",\"line\":106,\"rule\":\"MD032\",\"aliases\":[\"blanks-around-lists\"],\"description\":\"Lists should be surrounded by blank lines\"},{\"filename\":\"./docs/README.md\",\"line\":148,\"rule\":\"MD032\",\"aliases\":[\"blanks-around-lists\"],\"description\":\"Lists should be surrounded by blank lines\"},{\"filename\":\"./docs/docs/CLI.md\",\"line\":7,\"rule\":\"MD022\",\"aliases\":[\"blanks-around-headers\"],\"description\":\"Headers should be surrounded by blank lines\"},{\"filename\":\"./docs/docs/Concepts.md\",\"line\":7,\"rule\":\"MD022\",\"aliases\":[\"blanks-around-headers\"],\"description\":\"Headers should be surrounded by blank lines\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":144,\"rule\":\"MD009\",\"aliases\":[\"no-trailing-spaces\"],\"description\":\"Trailing spaces\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":159,\"rule\":\"MD009\",\"aliases\":[\"no-trailing-spaces\"],\"description\":\"Trailing spaces\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":168,\"rule\":\"MD009\",\"aliases\":[\"no-trailing-spaces\"],\"description\":\"Trailing spaces\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":313,\"rule\":\"MD009\",\"aliases\":[\"no-trailing-spaces\"],\"description\":\"Trailing spaces\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":359,\"rule\":\"MD009\",\"aliases\":[\"no-trailing-spaces\"],\"description\":\"Trailing spaces\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":367,\"rule\":\"MD009\",\"aliases\":[\"no-trailing-spaces\"],\"description\":\"Trailing spaces\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":387,\"rule\":\"MD009\",\"aliases\":[\"no-trailing-spaces\"],\"description\":\"Trailing spaces\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":446,\"rule\":\"MD009\",\"aliases\":[\"no-trailing-spaces\"],\"description\":\"Trailing spaces\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":178,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":179,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":181,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":182,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":183,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":184,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":192,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":228,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":229,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":230,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":232,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":233,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":234,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":235,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":245,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":285,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":286,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":290,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":291,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":302,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":333,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":337,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":432,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":454,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":499,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":520,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":525,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":7,\"rule\":\"MD022\",\"aliases\":[\"blanks-around-headers\"],\"description\":\"Headers should be surrounded by blank lines\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":10,\"rule\":\"MD022\",\"aliases\":[\"blanks-around-headers\"],\"description\":\"Headers should be surrounded by blank lines\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":508,\"rule\":\"MD029\",\"aliases\":[\"ol-prefix\"],\"description\":\"Ordered list item prefix\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":119,\"rule\":\"MD032\",\"aliases\":[\"blanks-around-lists\"],\"description\":\"Lists should be surrounded by blank lines\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":121,\"rule\":\"MD032\",\"aliases\":[\"blanks-around-lists\"],\"description\":\"Lists should be surrounded by blank lines\"},{\"filename\":\"./docs/docs/How-to-use-this-software.md\",\"line\":257,\"rule\":\"MD032\",\"aliases\":[\"blanks-around-lists\"],\"description\":\"Lists should be surrounded by blank lines\"},{\"filename\":\"./docs/docs/use-cases/mnist.md\",\"line\":58,\"rule\":\"MD009\",\"aliases\":[\"no-trailing-spaces\"],\"description\":\"Trailing spaces\"},{\"filename\":\"./docs/docs/use-cases/mnist.md\",\"line\":180,\"rule\":\"MD009\",\"aliases\":[\"no-trailing-spaces\"],\"description\":\"Trailing spaces\"},{\"filename\":\"./docs/docs/use-cases/mnist.md\",\"line\":19,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/use-cases/mnist.md\",\"line\":25,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/use-cases/mnist.md\",\"line\":48,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/use-cases/mnist.md\",\"line\":70,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/use-cases/mnist.md\",\"line\":110,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/use-cases/mnist.md\",\"line\":111,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/use-cases/mnist.md\",\"line\":122,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/use-cases/mnist.md\",\"line\":123,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/use-cases/mnist.md\",\"line\":126,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/use-cases/mnist.md\",\"line\":127,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/use-cases/mnist.md\",\"line\":130,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/use-cases/mnist.md\",\"line\":131,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/use-cases/mnist.md\",\"line\":138,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/use-cases/mnist.md\",\"line\":151,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/use-cases/mnist.md\",\"line\":161,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/use-cases/mnist.md\",\"line\":162,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/use-cases/mnist.md\",\"line\":163,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/use-cases/mnist.md\",\"line\":164,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/use-cases/mnist.md\",\"line\":172,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/use-cases/mnist.md\",\"line\":185,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/docs/use-cases/mnist.md\",\"line\":8,\"rule\":\"MD022\",\"aliases\":[\"blanks-around-headers\"],\"description\":\"Headers should be surrounded by blank lines\"},{\"filename\":\"./docs/docs/use-cases/mnist.md\",\"line\":11,\"rule\":\"MD022\",\"aliases\":[\"blanks-around-headers\"],\"description\":\"Headers should be surrounded by blank lines\"},{\"filename\":\"./docs/docs/use-cases/mnist.md\",\"line\":25,\"rule\":\"MD032\",\"aliases\":[\"blanks-around-lists\"],\"description\":\"Lists should be surrounded by blank lines\"},{\"filename\":\"./docs/index.md\",\"line\":9,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/index.md\",\"line\":11,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/index.md\",\"line\":12,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/index.md\",\"line\":23,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/index.md\",\"line\":47,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./docs/index.md\",\"line\":17,\"rule\":\"MD032\",\"aliases\":[\"blanks-around-lists\"],\"description\":\"Lists should be surrounded by blank lines\"}]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/267/execution/node/61/log?consoleFull"
-                                },
-                                "level": "RECOMMENDED",
-                                "build_repo": "https://github.com/eosc-synergy/itwinai.assess.sqaaas"
-                            },
-                            "standard": {
-                                "title": "A set of Common Software Quality Assurance Baseline Criteria for Research Projects",
-                                "version": "v4.0",
-                                "url": "https://github.com/indigo-dc/sqa-baseline/releases/tag/v4.0"
-                            },
-                            "data_unstructured": {
-                                "./AUTHORS.md": {
-                                    "MD009": {
-                                        "description": "Trailing spaces",
-                                        "line": [
-                                            5,
-                                            6
-                                        ]
-                                    }
-                                },
-                                "./README.md": {
-                                    "MD013": {
-                                        "description": "Line length",
-                                        "line": [
-                                            7,
-                                            25,
-                                            26,
-                                            27,
-                                            28,
-                                            29,
-                                            35
-                                        ]
-                                    },
-                                    "MD032": {
-                                        "description": "Lists should be surrounded by blank lines",
-                                        "line": [
-                                            125,
-                                            127
-                                        ]
-                                    }
-                                },
-                                "./docs/README.md": {
-                                    "MD007": {
-                                        "description": "Unordered list indentation",
-                                        "line": [
-                                            71
-                                        ]
-                                    },
-                                    "MD013": {
-                                        "description": "Line length",
-                                        "line": [
-                                            11,
-                                            12,
-                                            16,
-                                            36,
-                                            51,
-                                            71,
-                                            72,
-                                            98,
-                                            99,
-                                            100,
-                                            101,
-                                            106,
-                                            107,
-                                            109,
-                                            113,
-                                            114,
-                                            148,
-                                            149,
-                                            162,
-                                            163,
-                                            164,
-                                            166
-                                        ]
-                                    },
-                                    "MD029": {
-                                        "description": "Ordered list item prefix",
-                                        "line": [
-                                            68,
-                                            70,
-                                            80,
-                                            82,
-                                            109,
-                                            127,
-                                            139,
-                                            148
-                                        ]
-                                    },
-                                    "MD032": {
-                                        "description": "Lists should be surrounded by blank lines",
-                                        "line": [
-                                            106,
-                                            148
-                                        ]
-                                    }
-                                },
-                                "./docs/docs/CLI.md": {
-                                    "MD022": {
-                                        "description": "Headers should be surrounded by blank lines",
-                                        "line": [
-                                            7
-                                        ]
-                                    }
-                                },
-                                "./docs/docs/Concepts.md": {
-                                    "MD022": {
-                                        "description": "Headers should be surrounded by blank lines",
-                                        "line": [
-                                            7
-                                        ]
-                                    }
-                                },
-                                "./docs/docs/How-to-use-this-software.md": {
-                                    "MD009": {
-                                        "description": "Trailing spaces",
-                                        "line": [
-                                            144,
-                                            159,
-                                            168,
-                                            313,
-                                            359,
-                                            367,
-                                            387,
-                                            446
-                                        ]
-                                    },
-                                    "MD013": {
-                                        "description": "Line length",
-                                        "line": [
-                                            178,
-                                            179,
-                                            181,
-                                            182,
-                                            183,
-                                            184,
-                                            192,
-                                            228,
-                                            229,
-                                            230,
-                                            232,
-                                            233,
-                                            234,
-                                            235,
-                                            245,
-                                            285,
-                                            286,
-                                            290,
-                                            291,
-                                            302,
-                                            333,
-                                            337,
-                                            432,
-                                            454,
-                                            499,
-                                            520,
-                                            525
-                                        ]
-                                    },
-                                    "MD022": {
-                                        "description": "Headers should be surrounded by blank lines",
-                                        "line": [
-                                            7,
-                                            10
-                                        ]
-                                    },
-                                    "MD029": {
-                                        "description": "Ordered list item prefix",
-                                        "line": [
-                                            508
-                                        ]
-                                    },
-                                    "MD032": {
-                                        "description": "Lists should be surrounded by blank lines",
-                                        "line": [
-                                            119,
-                                            121,
-                                            257
-                                        ]
-                                    }
-                                },
-                                "./docs/docs/use-cases/mnist.md": {
-                                    "MD009": {
-                                        "description": "Trailing spaces",
-                                        "line": [
-                                            58,
-                                            180
-                                        ]
-                                    },
-                                    "MD013": {
-                                        "description": "Line length",
-                                        "line": [
-                                            19,
-                                            25,
-                                            48,
-                                            70,
-                                            110,
-                                            111,
-                                            122,
-                                            123,
-                                            126,
-                                            127,
-                                            130,
-                                            131,
-                                            138,
-                                            151,
-                                            161,
-                                            162,
-                                            163,
-                                            164,
-                                            172,
-                                            185
-                                        ]
-                                    },
-                                    "MD022": {
-                                        "description": "Headers should be surrounded by blank lines",
-                                        "line": [
-                                            8,
-                                            11
-                                        ]
-                                    },
-                                    "MD032": {
-                                        "description": "Lists should be surrounded by blank lines",
-                                        "line": [
-                                            25
-                                        ]
-                                    }
-                                },
-                                "./docs/index.md": {
-                                    "MD013": {
-                                        "description": "Line length",
-                                        "line": [
-                                            9,
-                                            11,
-                                            12,
-                                            23,
-                                            47
-                                        ]
-                                    },
-                                    "MD032": {
-                                        "description": "Lists should be surrounded by blank lines",
-                                        "line": [
-                                            17
-                                        ]
-                                    }
-                                }
-                            }
-                        }
-                    ],
-                    "valid": false,
-                    "required_for_next_level_badge": false
                 }
             },
             "coverage": {
-                "percentage": 80,
-                "total_subcriteria": 5,
+                "percentage": 100,
+                "total_subcriteria": 4,
                 "success_subcriteria": 4
             }
         },
@@ -611,7 +336,7 @@
                                         "licensee detect . --confidence 60 --json"
                                     ],
                                     "stdout_text": "{\"licenses\":[{\"key\":\"mit\",\"spdx_id\":\"MIT\",\"meta\":{\"title\":\"MIT License\",\"source\":\"https://spdx.org/licenses/MIT.html\",\"description\":\"A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.\",\"how\":\"Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. Replace [year] with the current year and [fullname] with the name (or names) of the copyright holders.\",\"using\":{\"Babel\":\"https://github.com/babel/babel/blob/master/LICENSE\",\".NET\":\"https://github.com/dotnet/runtime/blob/main/LICENSE.TXT\",\"Rails\":\"https://github.com/rails/rails/blob/master/MIT-LICENSE\"},\"featured\":true,\"hidden\":false,\"nickname\":null,\"note\":null},\"url\":\"http://choosealicense.com/licenses/mit/\",\"rules\":{\"permissions\":[{\"tag\":\"commercial-use\",\"label\":\"Commercial use\",\"description\":\"The licensed material and derivatives may be used for commercial purposes.\"},{\"tag\":\"modifications\",\"label\":\"Modification\",\"description\":\"The licensed material may be modified.\"},{\"tag\":\"distribution\",\"label\":\"Distribution\",\"description\":\"The licensed material may be distributed.\"},{\"tag\":\"private-use\",\"label\":\"Private use\",\"description\":\"The licensed material may be used and modified in private.\"}],\"conditions\":[{\"tag\":\"include-copyright\",\"label\":\"License and copyright notice\",\"description\":\"A copy of the license and copyright notice must be included with the licensed material.\"}],\"limitations\":[{\"tag\":\"liability\",\"label\":\"Liability\",\"description\":\"This license includes a limitation of liability.\"},{\"tag\":\"warranty\",\"label\":\"Warranty\",\"description\":\"This license explicitly states that it does NOT provide any warranty.\"}]},\"fields\":[{\"name\":\"year\",\"description\":\"The current year\"},{\"name\":\"fullname\",\"description\":\"The full name or username of the repository owner\"}],\"other\":false,\"gpl\":false,\"lgpl\":false,\"cc\":false},{\"key\":\"other\",\"spdx_id\":\"NOASSERTION\",\"meta\":{\"title\":null,\"source\":null,\"description\":null,\"how\":null,\"using\":null,\"featured\":false,\"hidden\":true,\"nickname\":null,\"note\":null},\"url\":\"http://choosealicense.com/licenses/other/\",\"rules\":{\"permissions\":[],\"conditions\":[],\"limitations\":[]},\"fields\":[],\"other\":true,\"gpl\":false,\"lgpl\":false,\"cc\":false}],\"matched_files\":[{\"filename\":\"LICENSE\",\"content\":\"MIT License\\n\\nCopyright (c) 2023 interTwin Community\\n\\nPermission is hereby granted, free of charge, to any person obtaining a copy\\nof this software and associated documentation files (the \\\"Software\\\"), to deal\\nin the Software without restriction, including without limitation the rights\\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\\ncopies of the Software, and to permit persons to whom the Software is\\nfurnished to do so, subject to the following conditions:\\n\\nThe above copyright notice and this permission notice shall be included in all\\ncopies or substantial portions of the Software.\\n\\nTHE SOFTWARE IS PROVIDED \\\"AS IS\\\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\\nSOFTWARE.\\n\",\"content_hash\":\"4c2c763d64bbc7ef2e58b0ec6d06d90cee9755c9\",\"content_normalized\":\"permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'software'), to deal in the software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, and to permit persons to whom the software is furnished to do so, subject to the following conditions: the above copyright notice and this permission notice shall be included in all copies or substantial portions of the software. the software is provided 'as is', without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. in no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.\",\"matcher\":{\"name\":\"exact\",\"confidence\":100},\"matched_license\":\"MIT\",\"attribution\":\"Copyright (c) 2023 interTwin Community\"},{\"filename\":\"COPYRIGHT\",\"content\":\"This project is licensed under MIT.\\n\\nCopyrights in this project are retained by their contributors.\\nNo copyright assignment is required to contribute to this project.\\n\",\"content_hash\":\"fc7c92616e4353936eb44819f8733479636cdd22\",\"content_normalized\":\"this project is licensed under mit. copyrights in this project are retained by their contributors. no copyright assignment is required to contribute to this project.\",\"matcher\":null,\"matched_license\":\"NOASSERTION\",\"attribution\":null}]}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/267/execution/node/70/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/270/execution/node/61/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/itwinai.assess.sqaaas"
@@ -782,7 +507,7 @@
                                         "licensee detect . --confidence 60 --json"
                                     ],
                                     "stdout_text": "{\"licenses\":[{\"key\":\"mit\",\"spdx_id\":\"MIT\",\"meta\":{\"title\":\"MIT License\",\"source\":\"https://spdx.org/licenses/MIT.html\",\"description\":\"A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.\",\"how\":\"Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. Replace [year] with the current year and [fullname] with the name (or names) of the copyright holders.\",\"using\":{\"Babel\":\"https://github.com/babel/babel/blob/master/LICENSE\",\".NET\":\"https://github.com/dotnet/runtime/blob/main/LICENSE.TXT\",\"Rails\":\"https://github.com/rails/rails/blob/master/MIT-LICENSE\"},\"featured\":true,\"hidden\":false,\"nickname\":null,\"note\":null},\"url\":\"http://choosealicense.com/licenses/mit/\",\"rules\":{\"permissions\":[{\"tag\":\"commercial-use\",\"label\":\"Commercial use\",\"description\":\"The licensed material and derivatives may be used for commercial purposes.\"},{\"tag\":\"modifications\",\"label\":\"Modification\",\"description\":\"The licensed material may be modified.\"},{\"tag\":\"distribution\",\"label\":\"Distribution\",\"description\":\"The licensed material may be distributed.\"},{\"tag\":\"private-use\",\"label\":\"Private use\",\"description\":\"The licensed material may be used and modified in private.\"}],\"conditions\":[{\"tag\":\"include-copyright\",\"label\":\"License and copyright notice\",\"description\":\"A copy of the license and copyright notice must be included with the licensed material.\"}],\"limitations\":[{\"tag\":\"liability\",\"label\":\"Liability\",\"description\":\"This license includes a limitation of liability.\"},{\"tag\":\"warranty\",\"label\":\"Warranty\",\"description\":\"This license explicitly states that it does NOT provide any warranty.\"}]},\"fields\":[{\"name\":\"year\",\"description\":\"The current year\"},{\"name\":\"fullname\",\"description\":\"The full name or username of the repository owner\"}],\"other\":false,\"gpl\":false,\"lgpl\":false,\"cc\":false},{\"key\":\"other\",\"spdx_id\":\"NOASSERTION\",\"meta\":{\"title\":null,\"source\":null,\"description\":null,\"how\":null,\"using\":null,\"featured\":false,\"hidden\":true,\"nickname\":null,\"note\":null},\"url\":\"http://choosealicense.com/licenses/other/\",\"rules\":{\"permissions\":[],\"conditions\":[],\"limitations\":[]},\"fields\":[],\"other\":true,\"gpl\":false,\"lgpl\":false,\"cc\":false}],\"matched_files\":[{\"filename\":\"LICENSE\",\"content\":\"MIT License\\n\\nCopyright (c) 2023 interTwin Community\\n\\nPermission is hereby granted, free of charge, to any person obtaining a copy\\nof this software and associated documentation files (the \\\"Software\\\"), to deal\\nin the Software without restriction, including without limitation the rights\\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\\ncopies of the Software, and to permit persons to whom the Software is\\nfurnished to do so, subject to the following conditions:\\n\\nThe above copyright notice and this permission notice shall be included in all\\ncopies or substantial portions of the Software.\\n\\nTHE SOFTWARE IS PROVIDED \\\"AS IS\\\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\\nSOFTWARE.\\n\",\"content_hash\":\"4c2c763d64bbc7ef2e58b0ec6d06d90cee9755c9\",\"content_normalized\":\"permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'software'), to deal in the software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, and to permit persons to whom the software is furnished to do so, subject to the following conditions: the above copyright notice and this permission notice shall be included in all copies or substantial portions of the software. the software is provided 'as is', without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. in no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.\",\"matcher\":{\"name\":\"exact\",\"confidence\":100},\"matched_license\":\"MIT\",\"attribution\":\"Copyright (c) 2023 interTwin Community\"},{\"filename\":\"COPYRIGHT\",\"content\":\"This project is licensed under MIT.\\n\\nCopyrights in this project are retained by their contributors.\\nNo copyright assignment is required to contribute to this project.\\n\",\"content_hash\":\"fc7c92616e4353936eb44819f8733479636cdd22\",\"content_normalized\":\"this project is licensed under mit. copyrights in this project are retained by their contributors. no copyright assignment is required to contribute to this project.\",\"matcher\":null,\"matched_license\":\"NOASSERTION\",\"attribution\":null}]}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/267/execution/node/70/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/270/execution/node/61/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/itwinai.assess.sqaaas"
@@ -953,7 +678,7 @@
                                         "licensee detect . --confidence 60 --json"
                                     ],
                                     "stdout_text": "{\"licenses\":[{\"key\":\"mit\",\"spdx_id\":\"MIT\",\"meta\":{\"title\":\"MIT License\",\"source\":\"https://spdx.org/licenses/MIT.html\",\"description\":\"A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.\",\"how\":\"Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. Replace [year] with the current year and [fullname] with the name (or names) of the copyright holders.\",\"using\":{\"Babel\":\"https://github.com/babel/babel/blob/master/LICENSE\",\".NET\":\"https://github.com/dotnet/runtime/blob/main/LICENSE.TXT\",\"Rails\":\"https://github.com/rails/rails/blob/master/MIT-LICENSE\"},\"featured\":true,\"hidden\":false,\"nickname\":null,\"note\":null},\"url\":\"http://choosealicense.com/licenses/mit/\",\"rules\":{\"permissions\":[{\"tag\":\"commercial-use\",\"label\":\"Commercial use\",\"description\":\"The licensed material and derivatives may be used for commercial purposes.\"},{\"tag\":\"modifications\",\"label\":\"Modification\",\"description\":\"The licensed material may be modified.\"},{\"tag\":\"distribution\",\"label\":\"Distribution\",\"description\":\"The licensed material may be distributed.\"},{\"tag\":\"private-use\",\"label\":\"Private use\",\"description\":\"The licensed material may be used and modified in private.\"}],\"conditions\":[{\"tag\":\"include-copyright\",\"label\":\"License and copyright notice\",\"description\":\"A copy of the license and copyright notice must be included with the licensed material.\"}],\"limitations\":[{\"tag\":\"liability\",\"label\":\"Liability\",\"description\":\"This license includes a limitation of liability.\"},{\"tag\":\"warranty\",\"label\":\"Warranty\",\"description\":\"This license explicitly states that it does NOT provide any warranty.\"}]},\"fields\":[{\"name\":\"year\",\"description\":\"The current year\"},{\"name\":\"fullname\",\"description\":\"The full name or username of the repository owner\"}],\"other\":false,\"gpl\":false,\"lgpl\":false,\"cc\":false},{\"key\":\"other\",\"spdx_id\":\"NOASSERTION\",\"meta\":{\"title\":null,\"source\":null,\"description\":null,\"how\":null,\"using\":null,\"featured\":false,\"hidden\":true,\"nickname\":null,\"note\":null},\"url\":\"http://choosealicense.com/licenses/other/\",\"rules\":{\"permissions\":[],\"conditions\":[],\"limitations\":[]},\"fields\":[],\"other\":true,\"gpl\":false,\"lgpl\":false,\"cc\":false}],\"matched_files\":[{\"filename\":\"LICENSE\",\"content\":\"MIT License\\n\\nCopyright (c) 2023 interTwin Community\\n\\nPermission is hereby granted, free of charge, to any person obtaining a copy\\nof this software and associated documentation files (the \\\"Software\\\"), to deal\\nin the Software without restriction, including without limitation the rights\\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\\ncopies of the Software, and to permit persons to whom the Software is\\nfurnished to do so, subject to the following conditions:\\n\\nThe above copyright notice and this permission notice shall be included in all\\ncopies or substantial portions of the Software.\\n\\nTHE SOFTWARE IS PROVIDED \\\"AS IS\\\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\\nSOFTWARE.\\n\",\"content_hash\":\"4c2c763d64bbc7ef2e58b0ec6d06d90cee9755c9\",\"content_normalized\":\"permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'software'), to deal in the software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, and to permit persons to whom the software is furnished to do so, subject to the following conditions: the above copyright notice and this permission notice shall be included in all copies or substantial portions of the software. the software is provided 'as is', without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. in no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.\",\"matcher\":{\"name\":\"exact\",\"confidence\":100},\"matched_license\":\"MIT\",\"attribution\":\"Copyright (c) 2023 interTwin Community\"},{\"filename\":\"COPYRIGHT\",\"content\":\"This project is licensed under MIT.\\n\\nCopyrights in this project are retained by their contributors.\\nNo copyright assignment is required to contribute to this project.\\n\",\"content_hash\":\"fc7c92616e4353936eb44819f8733479636cdd22\",\"content_normalized\":\"this project is licensed under mit. copyrights in this project are retained by their contributors. no copyright assignment is required to contribute to this project.\",\"matcher\":null,\"matched_license\":\"NOASSERTION\",\"attribution\":null}]}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/267/execution/node/70/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/270/execution/node/61/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/itwinai.assess.sqaaas"
@@ -1124,7 +849,7 @@
                                         "licensee detect . --confidence 60 --json"
                                     ],
                                     "stdout_text": "{\"licenses\":[{\"key\":\"mit\",\"spdx_id\":\"MIT\",\"meta\":{\"title\":\"MIT License\",\"source\":\"https://spdx.org/licenses/MIT.html\",\"description\":\"A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.\",\"how\":\"Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. Replace [year] with the current year and [fullname] with the name (or names) of the copyright holders.\",\"using\":{\"Babel\":\"https://github.com/babel/babel/blob/master/LICENSE\",\".NET\":\"https://github.com/dotnet/runtime/blob/main/LICENSE.TXT\",\"Rails\":\"https://github.com/rails/rails/blob/master/MIT-LICENSE\"},\"featured\":true,\"hidden\":false,\"nickname\":null,\"note\":null},\"url\":\"http://choosealicense.com/licenses/mit/\",\"rules\":{\"permissions\":[{\"tag\":\"commercial-use\",\"label\":\"Commercial use\",\"description\":\"The licensed material and derivatives may be used for commercial purposes.\"},{\"tag\":\"modifications\",\"label\":\"Modification\",\"description\":\"The licensed material may be modified.\"},{\"tag\":\"distribution\",\"label\":\"Distribution\",\"description\":\"The licensed material may be distributed.\"},{\"tag\":\"private-use\",\"label\":\"Private use\",\"description\":\"The licensed material may be used and modified in private.\"}],\"conditions\":[{\"tag\":\"include-copyright\",\"label\":\"License and copyright notice\",\"description\":\"A copy of the license and copyright notice must be included with the licensed material.\"}],\"limitations\":[{\"tag\":\"liability\",\"label\":\"Liability\",\"description\":\"This license includes a limitation of liability.\"},{\"tag\":\"warranty\",\"label\":\"Warranty\",\"description\":\"This license explicitly states that it does NOT provide any warranty.\"}]},\"fields\":[{\"name\":\"year\",\"description\":\"The current year\"},{\"name\":\"fullname\",\"description\":\"The full name or username of the repository owner\"}],\"other\":false,\"gpl\":false,\"lgpl\":false,\"cc\":false},{\"key\":\"other\",\"spdx_id\":\"NOASSERTION\",\"meta\":{\"title\":null,\"source\":null,\"description\":null,\"how\":null,\"using\":null,\"featured\":false,\"hidden\":true,\"nickname\":null,\"note\":null},\"url\":\"http://choosealicense.com/licenses/other/\",\"rules\":{\"permissions\":[],\"conditions\":[],\"limitations\":[]},\"fields\":[],\"other\":true,\"gpl\":false,\"lgpl\":false,\"cc\":false}],\"matched_files\":[{\"filename\":\"LICENSE\",\"content\":\"MIT License\\n\\nCopyright (c) 2023 interTwin Community\\n\\nPermission is hereby granted, free of charge, to any person obtaining a copy\\nof this software and associated documentation files (the \\\"Software\\\"), to deal\\nin the Software without restriction, including without limitation the rights\\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\\ncopies of the Software, and to permit persons to whom the Software is\\nfurnished to do so, subject to the following conditions:\\n\\nThe above copyright notice and this permission notice shall be included in all\\ncopies or substantial portions of the Software.\\n\\nTHE SOFTWARE IS PROVIDED \\\"AS IS\\\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\\nSOFTWARE.\\n\",\"content_hash\":\"4c2c763d64bbc7ef2e58b0ec6d06d90cee9755c9\",\"content_normalized\":\"permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'software'), to deal in the software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, and to permit persons to whom the software is furnished to do so, subject to the following conditions: the above copyright notice and this permission notice shall be included in all copies or substantial portions of the software. the software is provided 'as is', without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. in no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.\",\"matcher\":{\"name\":\"exact\",\"confidence\":100},\"matched_license\":\"MIT\",\"attribution\":\"Copyright (c) 2023 interTwin Community\"},{\"filename\":\"COPYRIGHT\",\"content\":\"This project is licensed under MIT.\\n\\nCopyrights in this project are retained by their contributors.\\nNo copyright assignment is required to contribute to this project.\\n\",\"content_hash\":\"fc7c92616e4353936eb44819f8733479636cdd22\",\"content_normalized\":\"this project is licensed under mit. copyrights in this project are retained by their contributors. no copyright assignment is required to contribute to this project.\",\"matcher\":null,\"matched_license\":\"NOASSERTION\",\"attribution\":null}]}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/267/execution/node/70/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/270/execution/node/61/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/itwinai.assess.sqaaas"
@@ -1275,456 +1000,6 @@
                 "success_subcriteria": 4
             }
         },
-        "QC.Sec": {
-            "valid": false,
-            "subcriteria": {
-                "QC.Sec02": {
-                    "description": "Is the source code passing Static Analysis Security Testing (SAST)?",
-                    "requirement_level": "MUST",
-                    "hint": "Please check & solve the security weaknesses found by the SAST tool",
-                    "evidence": [
-                        {
-                            "valid": false,
-                            "message": "Found security weaknesses when performing SAST checks with bandit tool",
-                            "plugin": {
-                                "name": "report2sqaaas-plugin-bandit",
-                                "version": "1.0.0"
-                            },
-                            "tool": {
-                                "name": "bandit",
-                                "lang": "Python",
-                                "version": "1.7.4",
-                                "docker": {
-                                    "dockerfile": "QC.Sec/bandit/Dockerfile",
-                                    "reviewed": "2022-03-04"
-                                },
-                                "ci": {
-                                    "name": "QC.Sec github.com/interTwin-eu/itwinai bandit",
-                                    "status": "FAILED",
-                                    "stdout_command": [
-                                        "bandit -f json --quiet  --confidence-level high --severity-level high --recursive ."
-                                    ],
-                                    "stdout_text": "{\n  \"errors\": [],\n  \"generated_at\": \"2023-11-29T09:54:11Z\",\n  \"metrics\": {\n    \"./ai/setup.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 18,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./ai/src/itwinai/__init__.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 0,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./ai/src/itwinai/cli.py\": {\n      \"CONFIDENCE.HIGH\": 2,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 2,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 317,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./ai/src/itwinai/models/__init__.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 0,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./ai/src/itwinai/models/cnn.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 26,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./ai/src/itwinai/plmodels/__init__.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 0,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./ai/src/itwinai/plmodels/base.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 20,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./ai/src/itwinai/plmodels/mnist.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 187,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./ai/src/itwinai/utils.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 100,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./ai/tests/test_cli.py\": {\n      \"CONFIDENCE.HIGH\": 3,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 3,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 22,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./ai/tests/test_utils.py\": {\n      \"CONFIDENCE.HIGH\": 4,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 4,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 20,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./other/argparse/argparsee.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 17,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./run-workflow.py\": {\n      \"CONFIDENCE.HIGH\": 5,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 1,\n      \"SEVERITY.LOW\": 4,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 120,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./tests/use-cases/test_mnist.py\": {\n      \"CONFIDENCE.HIGH\": 5,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 5,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 29,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./use-cases/mnist/mlflow-server.py\": {\n      \"CONFIDENCE.HIGH\": 3,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 1,\n      \"SEVERITY.LOW\": 2,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 42,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./use-cases/mnist/mnist-preproc.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 34,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"_totals\": {\n      \"CONFIDENCE.HIGH\": 22,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 2,\n      \"SEVERITY.LOW\": 20,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 952,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    }\n  },\n  \"results\": [\n    {\n      \"code\": \"129              f\\\"{args.workflow_file}\\\"),\\n130             shell=True,\\n131             check=True,\\n132         )\\n133 \\n134     # invoke workflow step-by-step with 'micromamba run ...'\\n135     else:\\n136         for step in workflow.get('steps'):\\n137             step_name, step_data = next(iter(step.items()))\\n\",\n      \"col_offset\": 8,\n      \"filename\": \"./run-workflow.py\",\n      \"issue_confidence\": \"HIGH\",\n      \"issue_cwe\": {\n        \"id\": 78,\n        \"link\": \"https://cwe.mitre.org/data/definitions/78.html\"\n      },\n      \"issue_severity\": \"HIGH\",\n      \"issue_text\": \"subprocess call with shell=True identified, security issue.\",\n      \"line_number\": 130,\n      \"line_range\": [\n        125,\n        126,\n        127,\n        128,\n        129,\n        130,\n        131\n      ],\n      \"more_info\": \"https://bandit.readthedocs.io/en/1.7.4/plugins/b602_subprocess_popen_with_shell_equals_true.html\",\n      \"test_id\": \"B602\",\n      \"test_name\": \"subprocess_popen_with_shell_equals_true\"\n    },\n    {\n      \"code\": \"34             f\\\"kill -9 $(lsof -t -i:{args.port})\\\",\\n35             shell=True,\\n36             check=True,\\n37             stderr=subprocess.DEVNULL\\n38         )\\n39         sys.exit()\\n40 \\n\",\n      \"col_offset\": 8,\n      \"filename\": \"./use-cases/mnist/mlflow-server.py\",\n      \"issue_confidence\": \"HIGH\",\n      \"issue_cwe\": {\n        \"id\": 78,\n        \"link\": \"https://cwe.mitre.org/data/definitions/78.html\"\n      },\n      \"issue_severity\": \"HIGH\",\n      \"issue_text\": \"subprocess call with shell=True identified, security issue.\",\n      \"line_number\": 35,\n      \"line_range\": [\n        33,\n        34,\n        35,\n        36,\n        37\n      ],\n      \"more_info\": \"https://bandit.readthedocs.io/en/1.7.4/plugins/b602_subprocess_popen_with_shell_equals_true.html\",\n      \"test_id\": \"B602\",\n      \"test_name\": \"subprocess_popen_with_shell_equals_true\"\n    }\n  ]\n}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/267/execution/node/79/log?consoleFull"
-                                },
-                                "level": "REQUIRED",
-                                "build_repo": "https://github.com/eosc-synergy/itwinai.assess.sqaaas"
-                            },
-                            "standard": {
-                                "title": "A set of Common Software Quality Assurance Baseline Criteria for Research Projects",
-                                "version": "v4.0",
-                                "url": "https://github.com/indigo-dc/sqa-baseline/releases/tag/v4.0"
-                            },
-                            "data_unstructured": {
-                                "errors": [],
-                                "generated_at": "2023-11-29T09:54:11Z",
-                                "metrics": {
-                                    "./ai/setup.py": {
-                                        "CONFIDENCE.HIGH": 0,
-                                        "CONFIDENCE.LOW": 0,
-                                        "CONFIDENCE.MEDIUM": 0,
-                                        "CONFIDENCE.UNDEFINED": 0,
-                                        "SEVERITY.HIGH": 0,
-                                        "SEVERITY.LOW": 0,
-                                        "SEVERITY.MEDIUM": 0,
-                                        "SEVERITY.UNDEFINED": 0,
-                                        "loc": 18,
-                                        "nosec": 0,
-                                        "skipped_tests": 0
-                                    },
-                                    "./ai/src/itwinai/__init__.py": {
-                                        "CONFIDENCE.HIGH": 0,
-                                        "CONFIDENCE.LOW": 0,
-                                        "CONFIDENCE.MEDIUM": 0,
-                                        "CONFIDENCE.UNDEFINED": 0,
-                                        "SEVERITY.HIGH": 0,
-                                        "SEVERITY.LOW": 0,
-                                        "SEVERITY.MEDIUM": 0,
-                                        "SEVERITY.UNDEFINED": 0,
-                                        "loc": 0,
-                                        "nosec": 0,
-                                        "skipped_tests": 0
-                                    },
-                                    "./ai/src/itwinai/cli.py": {
-                                        "CONFIDENCE.HIGH": 2,
-                                        "CONFIDENCE.LOW": 0,
-                                        "CONFIDENCE.MEDIUM": 0,
-                                        "CONFIDENCE.UNDEFINED": 0,
-                                        "SEVERITY.HIGH": 0,
-                                        "SEVERITY.LOW": 2,
-                                        "SEVERITY.MEDIUM": 0,
-                                        "SEVERITY.UNDEFINED": 0,
-                                        "loc": 317,
-                                        "nosec": 0,
-                                        "skipped_tests": 0
-                                    },
-                                    "./ai/src/itwinai/models/__init__.py": {
-                                        "CONFIDENCE.HIGH": 0,
-                                        "CONFIDENCE.LOW": 0,
-                                        "CONFIDENCE.MEDIUM": 0,
-                                        "CONFIDENCE.UNDEFINED": 0,
-                                        "SEVERITY.HIGH": 0,
-                                        "SEVERITY.LOW": 0,
-                                        "SEVERITY.MEDIUM": 0,
-                                        "SEVERITY.UNDEFINED": 0,
-                                        "loc": 0,
-                                        "nosec": 0,
-                                        "skipped_tests": 0
-                                    },
-                                    "./ai/src/itwinai/models/cnn.py": {
-                                        "CONFIDENCE.HIGH": 0,
-                                        "CONFIDENCE.LOW": 0,
-                                        "CONFIDENCE.MEDIUM": 0,
-                                        "CONFIDENCE.UNDEFINED": 0,
-                                        "SEVERITY.HIGH": 0,
-                                        "SEVERITY.LOW": 0,
-                                        "SEVERITY.MEDIUM": 0,
-                                        "SEVERITY.UNDEFINED": 0,
-                                        "loc": 26,
-                                        "nosec": 0,
-                                        "skipped_tests": 0
-                                    },
-                                    "./ai/src/itwinai/plmodels/__init__.py": {
-                                        "CONFIDENCE.HIGH": 0,
-                                        "CONFIDENCE.LOW": 0,
-                                        "CONFIDENCE.MEDIUM": 0,
-                                        "CONFIDENCE.UNDEFINED": 0,
-                                        "SEVERITY.HIGH": 0,
-                                        "SEVERITY.LOW": 0,
-                                        "SEVERITY.MEDIUM": 0,
-                                        "SEVERITY.UNDEFINED": 0,
-                                        "loc": 0,
-                                        "nosec": 0,
-                                        "skipped_tests": 0
-                                    },
-                                    "./ai/src/itwinai/plmodels/base.py": {
-                                        "CONFIDENCE.HIGH": 0,
-                                        "CONFIDENCE.LOW": 0,
-                                        "CONFIDENCE.MEDIUM": 0,
-                                        "CONFIDENCE.UNDEFINED": 0,
-                                        "SEVERITY.HIGH": 0,
-                                        "SEVERITY.LOW": 0,
-                                        "SEVERITY.MEDIUM": 0,
-                                        "SEVERITY.UNDEFINED": 0,
-                                        "loc": 20,
-                                        "nosec": 0,
-                                        "skipped_tests": 0
-                                    },
-                                    "./ai/src/itwinai/plmodels/mnist.py": {
-                                        "CONFIDENCE.HIGH": 0,
-                                        "CONFIDENCE.LOW": 0,
-                                        "CONFIDENCE.MEDIUM": 0,
-                                        "CONFIDENCE.UNDEFINED": 0,
-                                        "SEVERITY.HIGH": 0,
-                                        "SEVERITY.LOW": 0,
-                                        "SEVERITY.MEDIUM": 0,
-                                        "SEVERITY.UNDEFINED": 0,
-                                        "loc": 187,
-                                        "nosec": 0,
-                                        "skipped_tests": 0
-                                    },
-                                    "./ai/src/itwinai/utils.py": {
-                                        "CONFIDENCE.HIGH": 0,
-                                        "CONFIDENCE.LOW": 0,
-                                        "CONFIDENCE.MEDIUM": 0,
-                                        "CONFIDENCE.UNDEFINED": 0,
-                                        "SEVERITY.HIGH": 0,
-                                        "SEVERITY.LOW": 0,
-                                        "SEVERITY.MEDIUM": 0,
-                                        "SEVERITY.UNDEFINED": 0,
-                                        "loc": 100,
-                                        "nosec": 0,
-                                        "skipped_tests": 0
-                                    },
-                                    "./ai/tests/test_cli.py": {
-                                        "CONFIDENCE.HIGH": 3,
-                                        "CONFIDENCE.LOW": 0,
-                                        "CONFIDENCE.MEDIUM": 0,
-                                        "CONFIDENCE.UNDEFINED": 0,
-                                        "SEVERITY.HIGH": 0,
-                                        "SEVERITY.LOW": 3,
-                                        "SEVERITY.MEDIUM": 0,
-                                        "SEVERITY.UNDEFINED": 0,
-                                        "loc": 22,
-                                        "nosec": 0,
-                                        "skipped_tests": 0
-                                    },
-                                    "./ai/tests/test_utils.py": {
-                                        "CONFIDENCE.HIGH": 4,
-                                        "CONFIDENCE.LOW": 0,
-                                        "CONFIDENCE.MEDIUM": 0,
-                                        "CONFIDENCE.UNDEFINED": 0,
-                                        "SEVERITY.HIGH": 0,
-                                        "SEVERITY.LOW": 4,
-                                        "SEVERITY.MEDIUM": 0,
-                                        "SEVERITY.UNDEFINED": 0,
-                                        "loc": 20,
-                                        "nosec": 0,
-                                        "skipped_tests": 0
-                                    },
-                                    "./other/argparse/argparsee.py": {
-                                        "CONFIDENCE.HIGH": 0,
-                                        "CONFIDENCE.LOW": 0,
-                                        "CONFIDENCE.MEDIUM": 0,
-                                        "CONFIDENCE.UNDEFINED": 0,
-                                        "SEVERITY.HIGH": 0,
-                                        "SEVERITY.LOW": 0,
-                                        "SEVERITY.MEDIUM": 0,
-                                        "SEVERITY.UNDEFINED": 0,
-                                        "loc": 17,
-                                        "nosec": 0,
-                                        "skipped_tests": 0
-                                    },
-                                    "./run-workflow.py": {
-                                        "CONFIDENCE.HIGH": 5,
-                                        "CONFIDENCE.LOW": 0,
-                                        "CONFIDENCE.MEDIUM": 0,
-                                        "CONFIDENCE.UNDEFINED": 0,
-                                        "SEVERITY.HIGH": 1,
-                                        "SEVERITY.LOW": 4,
-                                        "SEVERITY.MEDIUM": 0,
-                                        "SEVERITY.UNDEFINED": 0,
-                                        "loc": 120,
-                                        "nosec": 0,
-                                        "skipped_tests": 0
-                                    },
-                                    "./tests/use-cases/test_mnist.py": {
-                                        "CONFIDENCE.HIGH": 5,
-                                        "CONFIDENCE.LOW": 0,
-                                        "CONFIDENCE.MEDIUM": 0,
-                                        "CONFIDENCE.UNDEFINED": 0,
-                                        "SEVERITY.HIGH": 0,
-                                        "SEVERITY.LOW": 5,
-                                        "SEVERITY.MEDIUM": 0,
-                                        "SEVERITY.UNDEFINED": 0,
-                                        "loc": 29,
-                                        "nosec": 0,
-                                        "skipped_tests": 0
-                                    },
-                                    "./use-cases/mnist/mlflow-server.py": {
-                                        "CONFIDENCE.HIGH": 3,
-                                        "CONFIDENCE.LOW": 0,
-                                        "CONFIDENCE.MEDIUM": 0,
-                                        "CONFIDENCE.UNDEFINED": 0,
-                                        "SEVERITY.HIGH": 1,
-                                        "SEVERITY.LOW": 2,
-                                        "SEVERITY.MEDIUM": 0,
-                                        "SEVERITY.UNDEFINED": 0,
-                                        "loc": 42,
-                                        "nosec": 0,
-                                        "skipped_tests": 0
-                                    },
-                                    "./use-cases/mnist/mnist-preproc.py": {
-                                        "CONFIDENCE.HIGH": 0,
-                                        "CONFIDENCE.LOW": 0,
-                                        "CONFIDENCE.MEDIUM": 0,
-                                        "CONFIDENCE.UNDEFINED": 0,
-                                        "SEVERITY.HIGH": 0,
-                                        "SEVERITY.LOW": 0,
-                                        "SEVERITY.MEDIUM": 0,
-                                        "SEVERITY.UNDEFINED": 0,
-                                        "loc": 34,
-                                        "nosec": 0,
-                                        "skipped_tests": 0
-                                    },
-                                    "_totals": {
-                                        "CONFIDENCE.HIGH": 22,
-                                        "CONFIDENCE.LOW": 0,
-                                        "CONFIDENCE.MEDIUM": 0,
-                                        "CONFIDENCE.UNDEFINED": 0,
-                                        "SEVERITY.HIGH": 2,
-                                        "SEVERITY.LOW": 20,
-                                        "SEVERITY.MEDIUM": 0,
-                                        "SEVERITY.UNDEFINED": 0,
-                                        "loc": 952,
-                                        "nosec": 0,
-                                        "skipped_tests": 0
-                                    }
-                                },
-                                "results": [
-                                    {
-                                        "code": "129              f\"{args.workflow_file}\"),\n130             shell=True,\n131             check=True,\n132         )\n133 \n134     # invoke workflow step-by-step with 'micromamba run ...'\n135     else:\n136         for step in workflow.get('steps'):\n137             step_name, step_data = next(iter(step.items()))\n",
-                                        "col_offset": 8,
-                                        "filename": "./run-workflow.py",
-                                        "issue_confidence": "HIGH",
-                                        "issue_cwe": {
-                                            "id": 78,
-                                            "link": "https://cwe.mitre.org/data/definitions/78.html"
-                                        },
-                                        "issue_severity": "HIGH",
-                                        "issue_text": "subprocess call with shell=True identified, security issue.",
-                                        "line_number": 130,
-                                        "line_range": [
-                                            125,
-                                            126,
-                                            127,
-                                            128,
-                                            129,
-                                            130,
-                                            131
-                                        ],
-                                        "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b602_subprocess_popen_with_shell_equals_true.html",
-                                        "test_id": "B602",
-                                        "test_name": "subprocess_popen_with_shell_equals_true"
-                                    },
-                                    {
-                                        "code": "34             f\"kill -9 $(lsof -t -i:{args.port})\",\n35             shell=True,\n36             check=True,\n37             stderr=subprocess.DEVNULL\n38         )\n39         sys.exit()\n40 \n",
-                                        "col_offset": 8,
-                                        "filename": "./use-cases/mnist/mlflow-server.py",
-                                        "issue_confidence": "HIGH",
-                                        "issue_cwe": {
-                                            "id": 78,
-                                            "link": "https://cwe.mitre.org/data/definitions/78.html"
-                                        },
-                                        "issue_severity": "HIGH",
-                                        "issue_text": "subprocess call with shell=True identified, security issue.",
-                                        "line_number": 35,
-                                        "line_range": [
-                                            33,
-                                            34,
-                                            35,
-                                            36,
-                                            37
-                                        ],
-                                        "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b602_subprocess_popen_with_shell_equals_true.html",
-                                        "test_id": "B602",
-                                        "test_name": "subprocess_popen_with_shell_equals_true"
-                                    }
-                                ]
-                            }
-                        }
-                    ],
-                    "valid": false,
-                    "required_for_next_level_badge": false
-                }
-            },
-            "coverage": {
-                "percentage": 0,
-                "total_subcriteria": 1,
-                "success_subcriteria": 0
-            }
-        },
-        "QC.Sty": {
-            "valid": false,
-            "subcriteria": {
-                "QC.Sty01": {
-                    "description": "Is the software product following a style standard for Python files?",
-                    "requirement_level": "MUST",
-                    "hint": "Please check & solve the security weaknesses found by the linter tool",
-                    "evidence": [
-                        {
-                            "valid": false,
-                            "message": "Python files are not fully compliant with flake8 (pycodestyle, pyflakes, mccabe) standard",
-                            "plugin": {
-                                "name": "report2sqaaas-plugin-flake8",
-                                "version": "1.0.0"
-                            },
-                            "tool": {
-                                "name": "flake8",
-                                "lang": "Python",
-                                "version": "4.0.1 (mccabe: 0.6.1, pycodestyle: 2.8.0, pyflakes: 2.4.0)",
-                                "docker": {
-                                    "image": "pipelinecomponents/flake8:0.9.0",
-                                    "reviewed": "2022-03-04"
-                                },
-                                "ci": {
-                                    "name": "QC.Sty github.com/interTwin-eu/itwinai flake8",
-                                    "status": "FAILED",
-                                    "stdout_command": [
-                                        "flake8 ."
-                                    ],
-                                    "stdout_text": "./run-workflow.py:118:80: E501 line too long (81 > 79 characters)",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/267/execution/node/88/log?consoleFull"
-                                },
-                                "level": "REQUIRED",
-                                "build_repo": "https://github.com/eosc-synergy/itwinai.assess.sqaaas"
-                            },
-                            "standard": {
-                                "title": "A set of Common Software Quality Assurance Baseline Criteria for Research Projects",
-                                "version": "v4.0",
-                                "url": "https://github.com/indigo-dc/sqa-baseline/releases/tag/v4.0"
-                            },
-                            "data_unstructured": "./run-workflow.py:118:80: E501 line too long (81 > 79 characters)"
-                        },
-                        {
-                            "valid": true,
-                            "message": "JSON files are compliant with jsonlint standard",
-                            "plugin": {
-                                "name": "report2sqaaas-plugin-jenkins_exit_status",
-                                "version": "1.2.0"
-                            },
-                            "tool": {
-                                "name": "jsonlint",
-                                "lang": "JSON",
-                                "version": "1.6.3",
-                                "docker": {
-                                    "dockerfile": "QC.Sty/jsonlint/Dockerfile",
-                                    "reviewed": "2021-11-23"
-                                },
-                                "ci": {
-                                    "name": "QC.Sty github.com/interTwin-eu/itwinai jsonlint",
-                                    "status": "SUCCESS",
-                                    "stdout_command": [
-                                        "jsonlint-cli \"**/*.json\""
-                                    ],
-                                    "stdout_text": "",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/267/execution/node/97/log?consoleFull"
-                                },
-                                "level": "REQUIRED",
-                                "build_repo": "https://github.com/eosc-synergy/itwinai.assess.sqaaas"
-                            },
-                            "standard": {
-                                "title": "A set of Common Software Quality Assurance Baseline Criteria for Research Projects",
-                                "version": "v4.0",
-                                "url": "https://github.com/indigo-dc/sqa-baseline/releases/tag/v4.0"
-                            },
-                            "data_unstructured": {}
-                        },
-                        {
-                            "valid": false,
-                            "message": "Ruby files are not fully compliant with rubocop standard",
-                            "plugin": {
-                                "name": "report2sqaaas-plugin-jenkins_exit_status",
-                                "version": "1.2.0"
-                            },
-                            "tool": {
-                                "name": "rubocop",
-                                "lang": "Ruby",
-                                "version": "1.36.0",
-                                "docker": {
-                                    "dockerfile": "QC.Sty/rubocop/Dockerfile",
-                                    "reviewed": "2022-10-07"
-                                },
-                                "ci": {
-                                    "name": "QC.Sty github.com/interTwin-eu/itwinai rubocop",
-                                    "status": "FAILED",
-                                    "stdout_command": [
-                                        "rubocop"
-                                    ],
-                                    "stdout_text": "Inspecting 1 file\nC\n\nOffenses:\n\ndocs/Gemfile:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.\nsource 'https://rubygems.org'\n^\ndocs/Gemfile:3:5: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.\ngem \"jekyll\", \"~> 4.3\" # installed by `gem jekyll`\n    ^^^^^^^^\ndocs/Gemfile:3:15: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.\ngem \"jekyll\", \"~> 4.3\" # installed by `gem jekyll`\n              ^^^^^^^^\ndocs/Gemfile:6:5: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.\ngem \"just-the-docs\", \"0.5.0\" # pinned to the current release\n    ^^^^^^^^^^^^^^^\ndocs/Gemfile:6:22: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.\ngem \"just-the-docs\", \"0.5.0\" # pinned to the current release\n                     ^^^^^^^\n\n1 file inspected, 5 offenses detected, 5 offenses autocorrectable",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/267/execution/node/106/log?consoleFull"
-                                },
-                                "level": "REQUIRED",
-                                "build_repo": "https://github.com/eosc-synergy/itwinai.assess.sqaaas"
-                            },
-                            "standard": {
-                                "title": "A set of Common Software Quality Assurance Baseline Criteria for Research Projects",
-                                "version": "v4.0",
-                                "url": "https://github.com/indigo-dc/sqa-baseline/releases/tag/v4.0"
-                            },
-                            "data_unstructured": {}
-                        }
-                    ],
-                    "valid": false,
-                    "required_for_next_level_badge": false
-                }
-            },
-            "coverage": {
-                "percentage": 0,
-                "total_subcriteria": 1,
-                "success_subcriteria": 0
-            }
-        },
         "QC.Ver": {
             "valid": true,
             "subcriteria": {
@@ -1755,7 +1030,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "['v0.1.0-beta', 'v0.1.0-alpha']",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/267/execution/node/115/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/270/execution/node/70/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/itwinai.assess.sqaaas"
@@ -1800,7 +1075,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "['v0.1.0-beta', 'v0.1.0-alpha']",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/267/execution/node/115/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/270/execution/node/70/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/itwinai.assess.sqaaas"
@@ -1846,7 +1121,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "['v0.1.0-beta', 'v0.1.0-alpha']",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/267/execution/node/115/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/270/execution/node/70/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/itwinai.assess.sqaaas"
@@ -1893,6 +1168,72 @@
                 "total_subcriteria": 1,
                 "success_subcriteria": 0
             }
+        },
+        "QC.Sec": {
+            "valid": false,
+            "subcriteria": {
+                "QC.Sec02": {
+                    "description": "Is the source code passing Static Analysis Security Testing (SAST)?",
+                    "valid": false,
+                    "hint": "Please check & solve the security weaknesses found by the SAST tool",
+                    "evidence": [
+                        {
+                            "valid": false,
+                            "message": "No matching files found for language <Python> in repository searching by extensions or filenames\nNo matching files found for language <Go> in repository searching by extensions or filenames"
+                        }
+                    ],
+                    "required_for_next_level_badge": false
+                }
+            },
+            "coverage": {
+                "percentage": 0,
+                "total_subcriteria": 1,
+                "success_subcriteria": 0
+            }
+        },
+        "QC.Sty": {
+            "valid": false,
+            "subcriteria": {
+                "QC.Sty01": {
+                    "description": "Is the software product following a style standard for {lang_name} files?",
+                    "valid": false,
+                    "hint": "Please check & solve the security weaknesses found by the linter tool",
+                    "evidence": [
+                        {
+                            "valid": false,
+                            "message": "No matching files found for language <Dockerfile> in repository searching by extensions or filenames\nNo matching files found for language <JSON> in repository searching by extensions or filenames\nNo matching files found for language <Python> in repository searching by extensions or filenames\nNo matching files found for language <Go> in repository searching by extensions or filenames\nNo matching files found for language <Ruby> in repository searching by extensions or filenames\nNo matching files found for language <Java> in repository searching by extensions or filenames"
+                        }
+                    ],
+                    "required_for_next_level_badge": false
+                }
+            },
+            "coverage": {
+                "percentage": 0,
+                "total_subcriteria": 1,
+                "success_subcriteria": 0
+            }
+        },
+        "QC.Uni": {
+            "valid": false,
+            "subcriteria": {
+                "QC.Uni01": {
+                    "description": "Are the tests passing through an automated means?",
+                    "valid": false,
+                    "hint": "Please check & solve the failing test cases found by the {tool_name} tool",
+                    "evidence": [
+                        {
+                            "valid": false,
+                            "message": "No matching files found for language <Python> in repository searching by extensions or filenames"
+                        }
+                    ],
+                    "required_for_next_level_badge": false
+                }
+            },
+            "coverage": {
+                "percentage": 0,
+                "total_subcriteria": 1,
+                "success_subcriteria": 0
+            }
         }
     },
     "badge": {
@@ -1900,85 +1241,87 @@
             "criteria": {
                 "bronze": {
                     "to_fulfill": [
-                        "QC.Acc",
+                        "QC.Lic",
                         "QC.Doc",
-                        "QC.Lic"
+                        "QC.Acc"
                     ],
                     "missing": [],
                     "fulfilled": [
-                        "QC.Acc",
+                        "QC.Lic",
                         "QC.Doc",
-                        "QC.Lic"
+                        "QC.Acc"
                     ]
                 },
                 "silver": {
                     "to_fulfill": [
-                        "QC.Lic",
-                        "QC.Met",
-                        "QC.Acc",
                         "QC.Ver",
-                        "QC.Doc"
+                        "QC.Acc",
+                        "QC.Lic",
+                        "QC.Doc",
+                        "QC.Met"
                     ],
                     "missing": [
                         "QC.Met"
                     ],
                     "fulfilled": [
-                        "QC.Acc",
-                        "QC.Ver",
                         "QC.Doc",
-                        "QC.Lic"
+                        "QC.Lic",
+                        "QC.Ver",
+                        "QC.Acc"
                     ]
                 },
                 "gold": {
                     "to_fulfill": [
                         "QC.Sty",
+                        "QC.Ver",
+                        "QC.Uni",
+                        "QC.Acc",
                         "QC.Sec",
                         "QC.Lic",
-                        "QC.Met",
-                        "QC.Acc",
-                        "QC.Ver",
-                        "QC.Doc"
+                        "QC.Doc",
+                        "QC.Met"
                     ],
                     "missing": [
                         "QC.Sty",
-                        "QC.Met",
-                        "QC.Sec"
+                        "QC.Uni",
+                        "QC.Sec",
+                        "QC.Met"
                     ],
                     "fulfilled": [
-                        "QC.Acc",
-                        "QC.Ver",
                         "QC.Doc",
-                        "QC.Lic"
+                        "QC.Lic",
+                        "QC.Ver",
+                        "QC.Acc"
                     ]
                 }
             },
             "data": {
                 "entityType": "Assertion",
-                "entityId": "3duq7sXQTWS_gXnel6SPcg",
-                "openBadgeId": "https://api.eu.badgr.io/public/assertions/3duq7sXQTWS_gXnel6SPcg",
-                "createdAt": "2023-11-29T09:57:22.075013145Z",
-                "createdBy": "WdYZfeM0TAq2LP1VS3ljUw",
-                "badgeclass": "KPF5hRehQlGa6_Zvdm3YEA",
-                "badgeclassOpenBadgeId": "https://api.eu.badgr.io/public/badges/KPF5hRehQlGa6_Zvdm3YEA",
-                "issuer": "WdYZfeM0TAq2LP1VS3ljUw",
-                "issuerOpenBadgeId": "https://api.eu.badgr.io/public/issuers/WdYZfeM0TAq2LP1VS3ljUw",
-                "image": "https://api.eu.badgr.io/public/assertions/3duq7sXQTWS_gXnel6SPcg/image",
+                "entityId": "Q451TAG9SOG0llxNFiGl3w",
+                "openBadgeId": "https://api.eu.badgr.io/public/assertions/Q451TAG9SOG0llxNFiGl3w",
+                "createdAt": "2024-02-01T15:01:21.832484314Z",
+                "createdBy": "aS1lWKgIR4u8bGjPZUzAyg",
+                "badgeclass": "UOmgyH_TSpSPXiro4aNBoQ",
+                "badgeclassOpenBadgeId": "https://api.eu.badgr.io/public/badges/UOmgyH_TSpSPXiro4aNBoQ",
+                "issuer": "aS1lWKgIR4u8bGjPZUzAyg",
+                "issuerOpenBadgeId": "https://api.eu.badgr.io/public/issuers/aS1lWKgIR4u8bGjPZUzAyg",
+                "image": "https://api.eu.badgr.io/public/assertions/Q451TAG9SOG0llxNFiGl3w/image",
                 "recipient": {
-                    "identity": "sha256$4132fad14aad9787d6e1b1cc91b1587328fd508de8d157f862306c977782f9dc",
+                    "identity": "sha256$b0ac3b3988ee41887cb22a040fb0539a6e4337524cf707ed57174b1a2223d56c",
                     "hashed": true,
                     "type": "url",
-                    "salt": "aXwfFZqCwdWD1YuN",
+                    "salt": "gLDHkztE7pxCQ9DY",
                     "plaintextIdentity": "https://github.com/interTwin-eu/itwinai"
                 },
-                "issuedOn": "2023-11-29T09:57:22.075019250Z",
-                "narrative": "SQAaaS assessment results for repository https://github.com/interTwin-eu/itwinai (commit: fb8f16d8bc20e671c8133a9ea997aba82bd90169, branch/tag: main)",
+                "issuedOn": "2024-02-01T15:01:21.832488089Z",
+                "narrative": "SQAaaS assessment results for repository https://github.com/interTwin-eu/itwinai (commit: 87d44b1da0ec173133413095744ba91f0561da03, branch/tag: main)",
                 "evidence": [
                     {
-                        "url": "https://github.com/EOSC-synergy/itwinai.assess.sqaaas/commit/ae582d95ced97609c3b3addfb2c4612ed0e30d48",
+                        "url": "https://github.com/EOSC-synergy/itwinai.assess.sqaaas/commit/4434db62f7258fb08ba7ce5cd6b023f2fcdc14fc",
                         "narrative": "SQAaaS build repository"
                     },
                     {
-                        "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/267/",
+                        "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/270/",
                         "narrative": "Build page from Jenkins CI"
                     }
                 ],
@@ -1988,22 +1331,22 @@
                 "expires": null,
                 "extensions": {},
                 "assertionRef": {
-                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/3duq7sXQTWS_gXnel6SPcg"
+                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/Q451TAG9SOG0llxNFiGl3w"
                 },
                 "badgeRef": {
-                    "badgeUrl": "https://api.eu.badgr.io/public/badges/KPF5hRehQlGa6_Zvdm3YEA"
+                    "badgeUrl": "https://api.eu.badgr.io/public/badges/UOmgyH_TSpSPXiro4aNBoQ"
                 },
                 "issuerRef": {
-                    "issuerUrl": "https://api.eu.badgr.io/public/issuers/WdYZfeM0TAq2LP1VS3ljUw"
+                    "issuerUrl": "https://api.eu.badgr.io/public/issuers/aS1lWKgIR4u8bGjPZUzAyg"
                 },
                 "pending": null,
                 "source": "local",
                 "sourceUrl": null,
                 "originalJson": null,
-                "imagePath": "uploads/badges/assertion-3duq7sXQTWS_gXnel6SPcg.png"
+                "imagePath": "uploads/badges/assertion-Q451TAG9SOG0llxNFiGl3w.png"
             },
-            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/3duq7sXQTWS_gXnel6SPcg?identity__url=https%3A//github.com/EOSC-synergy/itwinai.assess.sqaaas/commit/ae582d95ced97609c3b3addfb2c4612ed0e30d48\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/3duq7sXQTWS_gXnel6SPcg/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
-            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2F3duq7sXQTWS_gXnel6SPcg?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fitwinai.assess.sqaaas%2Fcommit%2Fae582d95ced97609c3b3addfb2c4612ed0e30d48&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fitwinai.assess.sqaaas%2Fcommit%2Fae582d95ced97609c3b3addfb2c4612ed0e30d48"
+            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/Q451TAG9SOG0llxNFiGl3w?identity__url=https%3A//github.com/EOSC-synergy/itwinai.assess.sqaaas/commit/4434db62f7258fb08ba7ce5cd6b023f2fcdc14fc\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/Q451TAG9SOG0llxNFiGl3w/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
+            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2FQ451TAG9SOG0llxNFiGl3w?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fitwinai.assess.sqaaas%2Fcommit%2F4434db62f7258fb08ba7ce5cd6b023f2fcdc14fc&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fitwinai.assess.sqaaas%2Fcommit%2F4434db62f7258fb08ba7ce5cd6b023f2fcdc14fc"
         }
     }
 }
