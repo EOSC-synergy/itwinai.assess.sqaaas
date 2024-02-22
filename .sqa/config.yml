@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: release/2.0.0
+      branch: feature/fair-epos-prototype
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/interTwin-eu/itwinai:
       branch: main
@@ -15,28 +15,28 @@ sqa_criteria:
     repos:
       github.com/interTwin-eu/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.snazzy-ecru-fowl.sh
-        container: qc.acc_ugly-red-dragon
+        - /usr/bin/env sh .sqa/script.homely-magnolia-greyhound.sh
+        container: qc.acc_skimpy-russet-mist
   QC.Doc:
     repos:
       github.com/interTwin-eu/itwinai find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sloppy-lime-weasel.sh
-        container: qc.doc_beady-orange-coral
+        - /usr/bin/env sh .sqa/script.pretty-smalt-liger.sh
+        container: qc.doc_lousy-rust-dingo
       github.com/interTwin-eu/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.snazzy-purple-jaguar.sh
-        container: qc.doc_gimpy-ecru-kingfisher
+        - /usr/bin/env sh .sqa/script.shaggy-gold-tortoise.sh
+        container: qc.doc_stuffy-teal-chihuahua
   QC.Lic:
     repos:
       github.com/interTwin-eu/itwinai licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-lavender-pig.sh
-        container: qc.lic_paltry-coral-chow
+        - /usr/bin/env sh .sqa/script.snappy-red-tortoise.sh
+        container: qc.lic_woolly-vermilion-termite
   QC.Ver:
     repos:
       github.com/interTwin-eu/itwinai get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-peach-saola.sh
-        container: qc.ver_goopy-chocolate-urchin
+        - /usr/bin/env sh .sqa/script.pokey-vermilion-okapi.sh
+        container: qc.ver_geeky-green-newt
 timeout: 5400
