@@ -2982,23 +2982,23 @@
             },
             "data": {
                 "entityType": "Assertion",
-                "entityId": "FnyLMYApSwuQoXXNuwhR2w",
-                "openBadgeId": "https://api.eu.badgr.io/public/assertions/FnyLMYApSwuQoXXNuwhR2w",
-                "createdAt": "2024-03-21T12:45:45.305338090Z",
+                "entityId": "1KYLO8L3THC1t0eDzbIyiQ",
+                "openBadgeId": "https://api.eu.badgr.io/public/assertions/1KYLO8L3THC1t0eDzbIyiQ",
+                "createdAt": "2024-03-21T12:46:19.433404901Z",
                 "createdBy": "aS1lWKgIR4u8bGjPZUzAyg",
                 "badgeclass": "UOmgyH_TSpSPXiro4aNBoQ",
                 "badgeclassOpenBadgeId": "https://api.eu.badgr.io/public/badges/UOmgyH_TSpSPXiro4aNBoQ",
                 "issuer": "aS1lWKgIR4u8bGjPZUzAyg",
                 "issuerOpenBadgeId": "https://api.eu.badgr.io/public/issuers/aS1lWKgIR4u8bGjPZUzAyg",
-                "image": "https://api.eu.badgr.io/public/assertions/FnyLMYApSwuQoXXNuwhR2w/image",
+                "image": "https://api.eu.badgr.io/public/assertions/1KYLO8L3THC1t0eDzbIyiQ/image",
                 "recipient": {
-                    "identity": "sha256$7d3b961f7ca652c8ed6173899d1bb771d6db6d6343b74b66fa57c2dfac40b940",
+                    "identity": "sha256$2b2abf5524f34310a7c32910b25d3ce2e47dd9a21913f0f695af9fbe8062307a",
                     "hashed": true,
                     "type": "url",
-                    "salt": "UTTxjUprV672VajD",
+                    "salt": "SJ4AgnH5pl68Qrcm",
                     "plaintextIdentity": "https://github.com/interTwin-eu/itwinai"
                 },
-                "issuedOn": "2024-03-21T12:45:45.305342693Z",
+                "issuedOn": "2024-03-21T12:46:19.433409538Z",
                 "narrative": "SQAaaS assessment results for repository https://github.com/interTwin-eu/itwinai (commit: cab0cbdb815562251ff028efe4d6d48261e3215a, branch/tag: unit_test_4_dev)",
                 "evidence": [
                     {
@@ -3016,7 +3016,7 @@
                 "expires": null,
                 "extensions": {},
                 "assertionRef": {
-                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/FnyLMYApSwuQoXXNuwhR2w"
+                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/1KYLO8L3THC1t0eDzbIyiQ"
                 },
                 "badgeRef": {
                     "badgeUrl": "https://api.eu.badgr.io/public/badges/UOmgyH_TSpSPXiro4aNBoQ"
@@ -3028,10 +3028,10 @@
                 "source": "local",
                 "sourceUrl": null,
                 "originalJson": null,
-                "imagePath": "uploads/badges/assertion-FnyLMYApSwuQoXXNuwhR2w.png"
+                "imagePath": "uploads/badges/assertion-1KYLO8L3THC1t0eDzbIyiQ.png"
             },
-            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/FnyLMYApSwuQoXXNuwhR2w?identity__url=https%3A//github.com/EOSC-synergy/itwinai.assess.sqaaas/commit/f08719d5a27efc5b4f7c8af7b2a058cd3fb86848\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/FnyLMYApSwuQoXXNuwhR2w/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
-            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2FFnyLMYApSwuQoXXNuwhR2w?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fitwinai.assess.sqaaas%2Fcommit%2Ff08719d5a27efc5b4f7c8af7b2a058cd3fb86848&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fitwinai.assess.sqaaas%2Fcommit%2Ff08719d5a27efc5b4f7c8af7b2a058cd3fb86848"
+            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/1KYLO8L3THC1t0eDzbIyiQ?identity__url=https%3A//github.com/EOSC-synergy/itwinai.assess.sqaaas/commit/f08719d5a27efc5b4f7c8af7b2a058cd3fb86848\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/1KYLO8L3THC1t0eDzbIyiQ/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
+            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2F1KYLO8L3THC1t0eDzbIyiQ?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fitwinai.assess.sqaaas%2Fcommit%2Ff08719d5a27efc5b4f7c8af7b2a058cd3fb86848&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fitwinai.assess.sqaaas%2Fcommit%2Ff08719d5a27efc5b4f7c8af7b2a058cd3fb86848"
         }
     }
 }
