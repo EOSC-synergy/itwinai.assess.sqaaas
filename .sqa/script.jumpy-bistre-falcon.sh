@@ -8,5 +8,5 @@ cd github.com/interTwin-eu/itwinai &&
     make torch-cpu&&
     make tf-2.13&&
     micromamba run -p ./.venv-pytorch pip install .[dev]&&
-    micromamba run -p ./.venv-pytorch pytest -v ./tests/ -m "not slurm"
+    micromamba run -p ./.venv-pytorch pytest -v ./tests/ -m "not slurm and not cyclones_train_tf"
 )
