@@ -5,5 +5,5 @@
 
 (
 cd github.com/interTwin-eu/itwinai &&
-    rubocop
+    rst-lint --level warning --format json .
 )
