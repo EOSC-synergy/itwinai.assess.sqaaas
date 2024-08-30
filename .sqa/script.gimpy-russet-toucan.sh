@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: GPL-3.0-only
 
 (
-cd github.com/KalliopiTsolaki/itwinai &&
-    rst-lint --level warning --format json .
+cd github.com/interTwin-eu/itwinai &&
+    make torch-env-cpu&&
+    make tensorflow-env-cpu&&
+    .venv-pytorch/bin/pytest -v ./tests/ -m "not slurm and not memory_heavy"
 )

@@ -4,6 +4,6 @@
 # SPDX-License-Identifier: GPL-3.0-only
 
 (
-cd github.com/KalliopiTsolaki/itwinai &&
+cd github.com/interTwin-eu/itwinai &&
     cffconvert --validate 
 )
