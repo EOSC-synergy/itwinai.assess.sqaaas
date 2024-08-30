@@ -4,6 +4,6 @@
 # SPDX-License-Identifier: GPL-3.0-only
 
 (
-cd github.com/interTwin-eu/itwinai &&
-    hadolint use-cases/3dgan/Dockerfile use-cases/mnist/torch/Dockerfile --failure-threshold error
+cd github.com/KalliopiTsolaki/itwinai &&
+    git rev-parse --is-inside-work-tree 
 )
