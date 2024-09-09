@@ -5,5 +5,5 @@
 
 (
 cd github.com/interTwin-eu/itwinai &&
-    hadolint env-files/torch/Dockerfile env-files/tensorflow/Dockerfile use-cases/3dgan/Dockerfile use-cases/mnist/torch/Dockerfile --failure-threshold error
+    hadolint use-cases/3dgan/Dockerfile use-cases/mnist/torch/Dockerfile env-files/torch/Dockerfile env-files/tensorflow/Dockerfile --failure-threshold error
 )
