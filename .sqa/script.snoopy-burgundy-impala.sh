@@ -5,5 +5,7 @@
 
 (
 cd github.com/interTwin-eu/itwinai &&
-    pytest  --json-report  --json-report-indent 4
+    make torch-env-cpu&&
+    make tensorflow-env-cpu&&
+    .venv-pytorch/bin/pytest -v ./tests/ -m "not slurm and not memory_heavy"
 )
