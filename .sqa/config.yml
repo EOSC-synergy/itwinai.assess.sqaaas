@@ -5,7 +5,7 @@ config:
       branch: release/2.2.1
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/interTwin-eu/itwinai:
-      branch: main
+      branch: fix/sqaaas
       repo: https://github.com/interTwin-eu/itwinai
 environment:
   JPL_DOCKERFORCEBUILD: enabled
@@ -15,68 +15,62 @@ sqa_criteria:
     repos:
       github.com/interTwin-eu/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.pokey-turquoise-seahorse.sh
-        container: qc.acc_messy-taupe-walrus
+        - /usr/bin/env sh .sqa/script.dorky-bronze-starfish.sh
+        container: qc.acc_silly-fuchsia-dogfish
   QC.Doc:
     repos:
       github.com/interTwin-eu/itwinai find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.messy-lavender-goose.sh
-        container: qc.doc_squeaky-mauve-ant
+        - /usr/bin/env sh .sqa/script.flaky-lemon-budgerigar.sh
+        container: qc.doc_stuffy-celadon-dugong
       github.com/interTwin-eu/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.gummy-amber-chamois.sh
-        container: qc.doc_gloppy-cinnamon-tarsier
+        - /usr/bin/env sh .sqa/script.slimy-firebrick-raccoon.sh
+        container: qc.doc_droopy-magenta-corgi
       github.com/interTwin-eu/itwinai markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.whiny-rose-seahorse.sh
-        container: qc.doc_crabby-aqua-gharial
+        - /usr/bin/env sh .sqa/script.craggy-smalt-goat.sh
+        container: qc.doc_flimsy-vermilion-wolverine
       github.com/interTwin-eu/itwinai restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-celadon-snail.sh
-        container: qc.doc_homey-amber-bandicoot
+        - /usr/bin/env sh .sqa/script.pretty-silver-bullfrog.sh
+        container: qc.doc_lumpy-copper-bullfrog
   QC.Lic:
     repos:
       github.com/interTwin-eu/itwinai licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.clammy-persimmon-dane.sh
-        container: qc.lic_messy-linen-guppy
-  QC.Met:
-    repos:
-      github.com/interTwin-eu/itwinai cff-converter-python:
-        commands:
-        - /usr/bin/env sh .sqa/script.skanky-buff-barnacle.sh
-        container: qc.met_smelly-corn-quail
+        - /usr/bin/env sh .sqa/script.lovely-fuchsia-stingray.sh
+        container: qc.lic_bumpy-amaranth-spaniel
   QC.Sec:
     repos:
       github.com/interTwin-eu/itwinai bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.flaky-bronze-hound.sh
-        container: qc.sec_sickly-teal-falcon
+        - /usr/bin/env sh .sqa/script.pokey-cerise-dollar.sh
+        container: qc.sec_thirsty-magnolia-coyote
   QC.Sty:
     repos:
       github.com/interTwin-eu/itwinai flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.wheezy-tomato-wallaby.sh
-        container: qc.sty_homey-platinum-bongo
+        - /usr/bin/env sh .sqa/script.seedy-khaki-hound.sh
+        container: qc.sty_zippy-cerise-terrier
       github.com/interTwin-eu/itwinai hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-amber-buzzard.sh
-        container: qc.sty_sunny-lavender-kiwi
+        - /usr/bin/env sh .sqa/script.gloppy-brass-flounder.sh
+        container: qc.sty_scaly-brown-chamois
       github.com/interTwin-eu/itwinai jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.sloppy-khaki-capuchin.sh
-        container: qc.sty_hasty-coral-walrus
+        - /usr/bin/env sh .sqa/script.goopy-wheat-orangutan.sh
+        container: qc.sty_blurry-beige-husky
   QC.Uni:
     repos:
       github.com/interTwin-eu/itwinai commands:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-ruby-wildebeest.sh
-        container: qc.uni_squeaky-champagne-cassowary
+        - /usr/bin/env sh .sqa/script.squirrely-celadon-dragonfly.sh
+        container: qc.uni_ugly-tan-caterpillar
   QC.Ver:
     repos:
       github.com/interTwin-eu/itwinai get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.woolly-carmine-setter.sh
-        container: qc.ver_leaky-linen-fossa
+        - /usr/bin/env sh .sqa/script.slaphappy-cardinal-caiman.sh
+        container: qc.ver_seedy-red-harrier
 timeout: 5400
