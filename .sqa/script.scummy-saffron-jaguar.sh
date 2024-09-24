@@ -4,6 +4,6 @@
 # SPDX-License-Identifier: GPL-3.0-only
 
 (
-cd github.com/intertwin-eu/itwinai &&
-    flake8 .
+cd github.com/interTwin-eu/itwinai &&
+    jsonlint-cli "**/*.json"
 )
