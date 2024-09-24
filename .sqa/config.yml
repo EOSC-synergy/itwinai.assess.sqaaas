@@ -5,7 +5,7 @@ config:
       branch: release/2.2.1
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/interTwin-eu/itwinai:
-      branch: main
+      branch: improve_sqaaas_badge
       repo: https://github.com/interTwin-eu/itwinai
 environment:
   JPL_DOCKERFORCEBUILD: enabled
@@ -15,68 +15,68 @@ sqa_criteria:
     repos:
       github.com/interTwin-eu/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.scanty-amber-bear.sh
-        container: qc.acc_lovely-cerulean-wolfhound
+        - /usr/bin/env sh .sqa/script.shaggy-pumpkin-bat.sh
+        container: qc.acc_pokey-goldenrod-owl
   QC.Doc:
     repos:
       github.com/interTwin-eu/itwinai find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cozy-celadon-mouse.sh
-        container: qc.doc_scaly-linen-mandrill
+        - /usr/bin/env sh .sqa/script.slimy-eggplant-liger.sh
+        container: qc.doc_sloppy-cornflower-rattlesnake
       github.com/interTwin-eu/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.jumpy-cinnabar-cuscus.sh
-        container: qc.doc_stuffy-scarlet-oriole
+        - /usr/bin/env sh .sqa/script.tacky-ruby-emu.sh
+        container: qc.doc_cloudy-wheat-ferret
       github.com/interTwin-eu/itwinai markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-orchid-alligator.sh
-        container: qc.doc_breezy-salmon-ant
+        - /usr/bin/env sh .sqa/script.sloppy-charcoal-eleuth.sh
+        container: qc.doc_hasty-bistre-kangaroo
       github.com/interTwin-eu/itwinai restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.scaly-dandelion-ray.sh
-        container: qc.doc_pretty-puce-crocodile
+        - /usr/bin/env sh .sqa/script.flabby-chocolate-tapir.sh
+        container: qc.doc_whiny-violet-armadillo
   QC.Lic:
     repos:
       github.com/interTwin-eu/itwinai licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-lime-avocet.sh
-        container: qc.lic_randy-yellow-zorse
+        - /usr/bin/env sh .sqa/script.hazy-flax-audemer.sh
+        container: qc.lic_baggy-pink-newfoundland
   QC.Met:
     repos:
       github.com/interTwin-eu/itwinai cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-cobalt-panda.sh
-        container: qc.met_gimpy-ivory-leopard
+        - /usr/bin/env sh .sqa/script.grumpy-seashell-terrier.sh
+        container: qc.met_foggy-flax-peccary
   QC.Sec:
     repos:
       github.com/interTwin-eu/itwinai bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.skinny-grey-sheep.sh
-        container: qc.sec_muggy-myrtle-alligator
+        - /usr/bin/env sh .sqa/script.cozy-cornflower-ant.sh
+        container: qc.sec_freaky-red-woodlouse
   QC.Sty:
     repos:
       github.com/interTwin-eu/itwinai flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-green-havanese.sh
-        container: qc.sty_thirsty-malachite-bombay
+        - /usr/bin/env sh .sqa/script.flimsy-buff-dalmatian.sh
+        container: qc.sty_pretty-emerald-bobcat
       github.com/interTwin-eu/itwinai hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.gummy-cinnabar-impala.sh
-        container: qc.sty_squirrely-heliotrope-moth
+        - /usr/bin/env sh .sqa/script.woolly-periwinkle-seal.sh
+        container: qc.sty_snoopy-champagne-dunker
       github.com/interTwin-eu/itwinai jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.breezy-copper-bordeaux.sh
-        container: qc.sty_woolly-olive-husky
+        - /usr/bin/env sh .sqa/script.flimsy-wheat-rat.sh
+        container: qc.sty_chewy-cardinal-dachshund
   QC.Uni:
     repos:
       github.com/interTwin-eu/itwinai commands:
         commands:
-        - /usr/bin/env sh .sqa/script.woolly-goldenrod-havanese.sh
-        container: qc.uni_flimsy-saffron-buffalo
+        - /usr/bin/env sh .sqa/script.skanky-chartreuse-hippopotamus.sh
+        container: qc.uni_gamy-celadon-deer
   QC.Ver:
     repos:
       github.com/interTwin-eu/itwinai get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.smelly-harlequin-stoat.sh
-        container: qc.ver_wheezy-rose-squid
+        - /usr/bin/env sh .sqa/script.geeky-tomato-wolf.sh
+        container: qc.ver_blurry-auburn-gar
 timeout: 5400
