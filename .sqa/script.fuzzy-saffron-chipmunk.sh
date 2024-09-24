@@ -4,6 +4,6 @@
 # SPDX-License-Identifier: GPL-3.0-only
 
 (
-cd github.com/interTwin-eu/itwinai &&
-    rst-lint --level warning --format json .
+cd github.com/intertwin-eu/itwinai &&
+    pytest  --json-report  --json-report-indent 4
 )
