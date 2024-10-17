@@ -101,7 +101,7 @@ services:
     working_dir: /sqaaas-build
   qc.uni_bluesy-taupe-audemer:
     command: sleep 6000000
-    image: eoscsynergy/sqaaas-micromamba:1.5.3-1-rc.7
+    image: eoscsynergy/sqaaas-micromamba:1.5.3-1-rc.8
     volumes:
     - source: ./
       target: /sqaaas-build
