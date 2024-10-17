@@ -5,6 +5,9 @@
 
 (
 cd github.com/interTwin-eu/itwinai &&
+    cmake --version&&
+    gcc --version&&
+    g++ --version&&
     make torch-env-cpu&&
     make tensorflow-env-cpu&&
     .venv-pytorch/bin/pytest -v ./tests/ -m "not slurm and not memory_heavy"
