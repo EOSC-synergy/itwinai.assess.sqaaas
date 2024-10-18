@@ -5,5 +5,5 @@
 
 (
 cd github.com/interTwin-eu/itwinai &&
-    cffconvert --validate 
+    git rev-parse --is-inside-work-tree
 )

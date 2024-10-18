@@ -5,5 +5,5 @@
 
 (
 cd github.com/interTwin-eu/itwinai &&
-    mdl --json  .
+    git rev-parse --is-inside-work-tree
 )
