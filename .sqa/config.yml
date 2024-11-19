@@ -15,6 +15,6 @@ sqa_criteria:
     repos:
       github.com/interTwin-eu/itwinai flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-smalt-moth.sh
-        container: qc.sty_muggy-zucchini-nightingale
+        - /usr/bin/env sh .sqa/script.surly-grey-frise.sh
+        container: qc.sty_leaky-chocolate-sheepdog
 timeout: 5400

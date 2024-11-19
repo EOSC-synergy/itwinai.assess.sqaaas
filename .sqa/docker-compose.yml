@@ -1,5 +1,5 @@
 services:
-  qc.sty_muggy-zucchini-nightingale:
+  qc.sty_leaky-chocolate-sheepdog:
     command: sleep 6000000
     image: pipelinecomponents/flake8:0.9.0
     volumes:
