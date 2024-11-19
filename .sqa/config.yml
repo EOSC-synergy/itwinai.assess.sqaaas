@@ -15,6 +15,6 @@ sqa_criteria:
     repos:
       github.com/interTwin-eu/itwinai flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.snippy-brown-squid.sh
-        container: qc.sty_leaky-auburn-iguana
+        - /usr/bin/env sh .sqa/script.wiggy-mustard-dachsbracke.sh
+        container: qc.sty_chummy-ruby-wombat
 timeout: 5400
