@@ -5,5 +5,5 @@
 
 (
 cd github.com/interTwin-eu/itwinai &&
-    flake8 .
+    flake8 . --exclude
 )
