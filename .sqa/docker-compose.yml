@@ -1,5 +1,5 @@
 services:
-  qc.sty_leaky-chocolate-sheepdog:
+  qc.sty_leaky-auburn-iguana:
     command: sleep 6000000
     image: pipelinecomponents/flake8:0.9.0
     volumes:
