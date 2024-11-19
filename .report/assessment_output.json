@@ -3,7 +3,7 @@
         "version": "3.5.0",
         "report_json_url": "https://raw.githubusercontent.com/eosc-synergy/itwinai.assess.sqaaas/main/.report/assessment_output.json",
         "report_permalink": "https://sqaaas.eosc-synergy.eu/full-assessment/report/https://raw.githubusercontent.com/eosc-synergy/itwinai.assess.sqaaas/main/.report/assessment_output.json",
-        "timestamp": 1732006883.829876
+        "timestamp": 1732012458.4346955
     },
     "repository": [
         {
@@ -53,7 +53,7 @@
                                         "flake8 . --exclude"
                                     ],
                                     "stdout_text": "usage: flake8 [options] file file ...\nflake8: error: argument --exclude: expected one argument",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/583/execution/node/34/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/itwinai.assess.sqaaas/job/main/585/execution/node/34/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/itwinai.assess.sqaaas"
@@ -82,52 +82,52 @@
                 "bronze": {
                     "to_fulfill": [
                         "QC.Lic",
-                        "QC.Acc",
-                        "QC.Doc"
+                        "QC.Doc",
+                        "QC.Acc"
                     ],
                     "missing": [
                         "QC.Lic",
-                        "QC.Acc",
-                        "QC.Doc"
+                        "QC.Doc",
+                        "QC.Acc"
                     ],
                     "fulfilled": []
                 },
                 "silver": {
                     "to_fulfill": [
-                        "QC.Acc",
                         "QC.Lic",
-                        "QC.Ver",
+                        "QC.Met",
                         "QC.Doc",
-                        "QC.Met"
+                        "QC.Ver",
+                        "QC.Acc"
                     ],
                     "missing": [
                         "QC.Lic",
+                        "QC.Met",
                         "QC.Acc",
-                        "QC.Ver",
                         "QC.Doc",
-                        "QC.Met"
+                        "QC.Ver"
                     ],
                     "fulfilled": []
                 },
                 "gold": {
                     "to_fulfill": [
-                        "QC.Acc",
-                        "QC.Sty",
-                        "QC.Uni",
                         "QC.Lic",
-                        "QC.Sec",
-                        "QC.Ver",
+                        "QC.Sty",
+                        "QC.Met",
                         "QC.Doc",
-                        "QC.Met"
+                        "QC.Ver",
+                        "QC.Sec",
+                        "QC.Acc",
+                        "QC.Uni"
                     ],
                     "missing": [
-                        "QC.Acc",
-                        "QC.Uni",
                         "QC.Lic",
-                        "QC.Sec",
-                        "QC.Ver",
                         "QC.Doc",
-                        "QC.Met"
+                        "QC.Met",
+                        "QC.Ver",
+                        "QC.Sec",
+                        "QC.Acc",
+                        "QC.Uni"
                     ],
                     "fulfilled": [
                         "QC.Sty"
