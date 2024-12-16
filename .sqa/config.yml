@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: release/2.3.0
+      branch: release/2.2.1
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/interTwin-eu/itwinai:
       branch: main
@@ -15,60 +15,68 @@ sqa_criteria:
     repos:
       github.com/interTwin-eu/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-sepia-barnacle.sh
-        container: qc.acc_snippy-platinum-beetle
+        - /usr/bin/env sh .sqa/script.pretty-emerald-hare.sh
+        container: qc.acc_hilly-violet-reindeer
   QC.Doc:
     repos:
       github.com/interTwin-eu/itwinai find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.grumpy-platinum-balinese.sh
-        container: qc.doc_sickly-charcoal-indri
+        - /usr/bin/env sh .sqa/script.seedy-blue-barnacle.sh
+        container: qc.doc_greasy-azure-kudu
       github.com/interTwin-eu/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.scaly-azure-impala.sh
-        container: qc.doc_sunny-yellow-octopus
+        - /usr/bin/env sh .sqa/script.whiny-cerulean-turtle.sh
+        container: qc.doc_stuffy-firebrick-discus
       github.com/interTwin-eu/itwinai markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.hazy-peach-cichlid.sh
-        container: qc.doc_geeky-chartreuse-liger
+        - /usr/bin/env sh .sqa/script.whiny-magnolia-discus.sh
+        container: qc.doc_smelly-crimson-bandicoot
       github.com/interTwin-eu/itwinai restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.shabby-green-starfish.sh
-        container: qc.doc_skimpy-harlequin-macaque
+        - /usr/bin/env sh .sqa/script.ugly-olivine-chihuahua.sh
+        container: qc.doc_tasty-xanthic-giraffe
   QC.Lic:
     repos:
       github.com/interTwin-eu/itwinai licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.surly-cinnamon-molly.sh
-        container: qc.lic_baggy-sepia-mole
+        - /usr/bin/env sh .sqa/script.jumpy-lilac-coati.sh
+        container: qc.lic_sickly-zucchini-hamster
   QC.Met:
     repos:
       github.com/interTwin-eu/itwinai cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.jumpy-ivory-impala.sh
-        container: qc.met_shaggy-denim-dhole
+        - /usr/bin/env sh .sqa/script.homely-fuchsia-tarantula.sh
+        container: qc.met_pretty-white-oriole
   QC.Sec:
     repos:
       github.com/interTwin-eu/itwinai bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.woozy-red-loon.sh
-        container: qc.sec_clammy-charcoal-grouse
+        - /usr/bin/env sh .sqa/script.hasty-violet-hyena.sh
+        container: qc.sec_whiny-brown-booby
   QC.Sty:
     repos:
       github.com/interTwin-eu/itwinai flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.clammy-aqua-husky.sh
-        container: qc.sty_lumpy-khaki-tiger
+        - /usr/bin/env sh .sqa/script.slimy-rust-mau.sh
+        container: qc.sty_cranky-gamboge-akita
+      github.com/interTwin-eu/itwinai hadolint:
+        commands:
+        - /usr/bin/env sh .sqa/script.ready-cerise-kangaroo.sh
+        container: qc.sty_lousy-amber-capybara
+      github.com/interTwin-eu/itwinai jsonlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.whiny-orange-slug.sh
+        container: qc.sty_crappy-celadon-burmese
   QC.Uni:
     repos:
-      github.com/interTwin-eu/itwinai pytest:
+      github.com/interTwin-eu/itwinai commands:
         commands:
-        - /usr/bin/env sh .sqa/script.tasty-olivine-quoll.sh
-        container: qc.uni_nippy-razzmatazz-coral
+        - /usr/bin/env sh .sqa/script.snappy-chocolate-millipede.sh
+        container: qc.uni_whiny-olivine-gharial
   QC.Ver:
     repos:
       github.com/interTwin-eu/itwinai get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.pasty-green-dolphin.sh
-        container: qc.ver_nerdy-mustard-wombat
+        - /usr/bin/env sh .sqa/script.whiny-wheat-devil.sh
+        container: qc.ver_baggy-chocolate-mist
 timeout: 5400
