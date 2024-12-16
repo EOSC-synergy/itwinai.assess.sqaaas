@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: release/2.2.1
+      branch: release/2.3.0
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/interTwin-eu/itwinai:
       branch: main
@@ -15,68 +15,60 @@ sqa_criteria:
     repos:
       github.com/interTwin-eu/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.fuzzy-azure-worm.sh
-        container: qc.acc_thirsty-harlequin-wasp
+        - /usr/bin/env sh .sqa/script.pretty-sepia-barnacle.sh
+        container: qc.acc_snippy-platinum-beetle
   QC.Doc:
     repos:
       github.com/interTwin-eu/itwinai find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snippy-dandelion-walrus.sh
-        container: qc.doc_nippy-sapphire-lion
+        - /usr/bin/env sh .sqa/script.grumpy-platinum-balinese.sh
+        container: qc.doc_sickly-charcoal-indri
       github.com/interTwin-eu/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.trippy-coral-abyssinian.sh
-        container: qc.doc_cheeky-fuchsia-dunker
+        - /usr/bin/env sh .sqa/script.scaly-azure-impala.sh
+        container: qc.doc_sunny-yellow-octopus
       github.com/interTwin-eu/itwinai markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-orange-lemur.sh
-        container: qc.doc_jumpy-saffron-warthog
+        - /usr/bin/env sh .sqa/script.hazy-peach-cichlid.sh
+        container: qc.doc_geeky-chartreuse-liger
       github.com/interTwin-eu/itwinai restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.gimpy-amaranth-angelfish.sh
-        container: qc.doc_seedy-peach-bulldog
+        - /usr/bin/env sh .sqa/script.shabby-green-starfish.sh
+        container: qc.doc_skimpy-harlequin-macaque
   QC.Lic:
     repos:
       github.com/interTwin-eu/itwinai licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-denim-leopard.sh
-        container: qc.lic_clammy-amethyst-buzzard
+        - /usr/bin/env sh .sqa/script.surly-cinnamon-molly.sh
+        container: qc.lic_baggy-sepia-mole
   QC.Met:
     repos:
       github.com/interTwin-eu/itwinai cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-cardinal-koala.sh
-        container: qc.met_craggy-blue-bullfrog
+        - /usr/bin/env sh .sqa/script.jumpy-ivory-impala.sh
+        container: qc.met_shaggy-denim-dhole
   QC.Sec:
     repos:
       github.com/interTwin-eu/itwinai bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-cardinal-akbash.sh
-        container: qc.sec_bumpy-eggplant-earwig
+        - /usr/bin/env sh .sqa/script.woozy-red-loon.sh
+        container: qc.sec_clammy-charcoal-grouse
   QC.Sty:
     repos:
       github.com/interTwin-eu/itwinai flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.muggy-aqua-emu.sh
-        container: qc.sty_skanky-lime-frigatebird
-      github.com/interTwin-eu/itwinai hadolint:
-        commands:
-        - /usr/bin/env sh .sqa/script.sunny-yellow-seahorse.sh
-        container: qc.sty_smelly-cardinal-squirt
-      github.com/interTwin-eu/itwinai jsonlint:
-        commands:
-        - /usr/bin/env sh .sqa/script.homey-silver-iguana.sh
-        container: qc.sty_snazzy-cornflower-dragon
+        - /usr/bin/env sh .sqa/script.clammy-aqua-husky.sh
+        container: qc.sty_lumpy-khaki-tiger
   QC.Uni:
     repos:
-      github.com/interTwin-eu/itwinai commands:
+      github.com/interTwin-eu/itwinai pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-jade-malamute.sh
-        container: qc.uni_shaky-plum-lemur
+        - /usr/bin/env sh .sqa/script.tasty-olivine-quoll.sh
+        container: qc.uni_nippy-razzmatazz-coral
   QC.Ver:
     repos:
       github.com/interTwin-eu/itwinai get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-tangerine-buzzard.sh
-        container: qc.ver_foggy-rust-tiger
+        - /usr/bin/env sh .sqa/script.pasty-green-dolphin.sh
+        container: qc.ver_nerdy-mustard-wombat
 timeout: 5400

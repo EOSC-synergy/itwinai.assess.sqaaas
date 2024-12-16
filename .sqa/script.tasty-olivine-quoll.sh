@@ -5,5 +5,5 @@
 
 (
 cd github.com/interTwin-eu/itwinai &&
-    hadolint env-files/tensorflow/Dockerfile env-files/torch/Dockerfile env-files/torch/jupyter/Dockerfile use-cases/3dgan/Dockerfile use-cases/mnist/torch/Dockerfile --failure-threshold error
+    pytest  --json-report  --json-report-indent 4
 )
