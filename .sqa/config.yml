@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: release/2.2.1
+      branch: release/2.3.0
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/interTwin-eu/itwinai:
       branch: main
@@ -15,68 +15,60 @@ sqa_criteria:
     repos:
       github.com/interTwin-eu/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-emerald-hare.sh
-        container: qc.acc_hilly-violet-reindeer
+        - /usr/bin/env sh .sqa/script.whiny-ultramarine-forest.sh
+        container: qc.acc_boozy-wisteria-dragonfly
   QC.Doc:
     repos:
       github.com/interTwin-eu/itwinai find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-blue-barnacle.sh
-        container: qc.doc_greasy-azure-kudu
+        - /usr/bin/env sh .sqa/script.homely-zucchini-baboon.sh
+        container: qc.doc_sleazy-salmon-bear
       github.com/interTwin-eu/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.whiny-cerulean-turtle.sh
-        container: qc.doc_stuffy-firebrick-discus
+        - /usr/bin/env sh .sqa/script.cozy-periwinkle-bordeaux.sh
+        container: qc.doc_goopy-tomato-burmese
       github.com/interTwin-eu/itwinai markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.whiny-magnolia-discus.sh
-        container: qc.doc_smelly-crimson-bandicoot
+        - /usr/bin/env sh .sqa/script.stinky-bronze-manatee.sh
+        container: qc.doc_shaggy-purple-crane
       github.com/interTwin-eu/itwinai restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.ugly-olivine-chihuahua.sh
-        container: qc.doc_tasty-xanthic-giraffe
+        - /usr/bin/env sh .sqa/script.gummy-turquoise-ragdoll.sh
+        container: qc.doc_lumpy-lilac-cockroach
   QC.Lic:
     repos:
       github.com/interTwin-eu/itwinai licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.jumpy-lilac-coati.sh
-        container: qc.lic_sickly-zucchini-hamster
+        - /usr/bin/env sh .sqa/script.hasty-purple-wildebeest.sh
+        container: qc.lic_chummy-purple-bracke
   QC.Met:
     repos:
       github.com/interTwin-eu/itwinai cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-fuchsia-tarantula.sh
-        container: qc.met_pretty-white-oriole
+        - /usr/bin/env sh .sqa/script.squeaky-ruby-tuatara.sh
+        container: qc.met_messy-pumpkin-bandicoot
   QC.Sec:
     repos:
       github.com/interTwin-eu/itwinai bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-violet-hyena.sh
-        container: qc.sec_whiny-brown-booby
+        - /usr/bin/env sh .sqa/script.clammy-cinnabar-capybara.sh
+        container: qc.sec_sunny-asparagus-wrasse
   QC.Sty:
     repos:
       github.com/interTwin-eu/itwinai flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-rust-mau.sh
-        container: qc.sty_cranky-gamboge-akita
-      github.com/interTwin-eu/itwinai hadolint:
-        commands:
-        - /usr/bin/env sh .sqa/script.ready-cerise-kangaroo.sh
-        container: qc.sty_lousy-amber-capybara
-      github.com/interTwin-eu/itwinai jsonlint:
-        commands:
-        - /usr/bin/env sh .sqa/script.whiny-orange-slug.sh
-        container: qc.sty_crappy-celadon-burmese
+        - /usr/bin/env sh .sqa/script.squeaky-chartreuse-quail.sh
+        container: qc.sty_lumpy-rust-tetra
   QC.Uni:
     repos:
-      github.com/interTwin-eu/itwinai commands:
+      github.com/interTwin-eu/itwinai pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-chocolate-millipede.sh
-        container: qc.uni_whiny-olivine-gharial
+        - /usr/bin/env sh .sqa/script.squirrely-olivine-cat.sh
+        container: qc.uni_sleazy-emerald-hare
   QC.Ver:
     repos:
       github.com/interTwin-eu/itwinai get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.whiny-wheat-devil.sh
-        container: qc.ver_baggy-chocolate-mist
+        - /usr/bin/env sh .sqa/script.randy-sepia-jackal.sh
+        container: qc.ver_woolly-charcoal-wolfhound
 timeout: 5400
