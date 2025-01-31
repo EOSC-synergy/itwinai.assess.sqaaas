@@ -5,5 +5,5 @@
 
 (
 cd github.com/interTwin-eu/itwinai &&
-    pytest  --json-report  --json-report-indent 4
+    jsonlint-cli "**/*.json"
 )
