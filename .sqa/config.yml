@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: feature/Ophidia
+      branch: release/2.2.1
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/interTwin-eu/itwinai:
       branch: main
@@ -15,60 +15,68 @@ sqa_criteria:
     repos:
       github.com/interTwin-eu/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.zippy-peach-termite.sh
-        container: qc.acc_tacky-ultramarine-cassowary
+        - /usr/bin/env sh .sqa/script.bumpy-cerulean-spitz.sh
+        container: qc.acc_goopy-champagne-buzzard
   QC.Doc:
     repos:
       github.com/interTwin-eu/itwinai find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.surly-aquamarine-drever.sh
-        container: qc.doc_paltry-chocolate-fowl
+        - /usr/bin/env sh .sqa/script.lovely-grey-urchin.sh
+        container: qc.doc_freaky-lavender-jellyfish
       github.com/interTwin-eu/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-rose-tang.sh
-        container: qc.doc_nippy-aqua-capuchin
+        - /usr/bin/env sh .sqa/script.hasty-xanthic-akbash.sh
+        container: qc.doc_pasty-magenta-frigatebird
       github.com/interTwin-eu/itwinai markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.shabby-cinnabar-chicken.sh
-        container: qc.doc_baggy-apricot-shark
+        - /usr/bin/env sh .sqa/script.woolly-wisteria-olm.sh
+        container: qc.doc_stealthy-puce-emu
       github.com/interTwin-eu/itwinai restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-brown-giraffe.sh
-        container: qc.doc_seedy-brown-yak
+        - /usr/bin/env sh .sqa/script.shabby-ecru-javanese.sh
+        container: qc.doc_messy-olive-bloodhound
   QC.Lic:
     repos:
       github.com/interTwin-eu/itwinai licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.shabby-lilac-dalmatian.sh
-        container: qc.lic_squeaky-olivine-mayfly
+        - /usr/bin/env sh .sqa/script.cranky-lemon-leopard.sh
+        container: qc.lic_stealthy-fuchsia-macaw
   QC.Met:
     repos:
       github.com/interTwin-eu/itwinai cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.sloppy-brass-dodo.sh
-        container: qc.met_greasy-wisteria-dhole
+        - /usr/bin/env sh .sqa/script.skinny-purple-balinese.sh
+        container: qc.met_gamy-magenta-loon
   QC.Sec:
     repos:
       github.com/interTwin-eu/itwinai bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-red-devil.sh
-        container: qc.sec_frumpy-vermilion-hyena
+        - /usr/bin/env sh .sqa/script.crappy-tomato-turkey.sh
+        container: qc.sec_snippy-carmine-chow
   QC.Sty:
     repos:
       github.com/interTwin-eu/itwinai flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.scanty-periwinkle-frog.sh
-        container: qc.sty_stuffy-brown-echidna
+        - /usr/bin/env sh .sqa/script.wheezy-cinnabar-monkey.sh
+        container: qc.sty_ugly-orchid-liger
+      github.com/interTwin-eu/itwinai hadolint:
+        commands:
+        - /usr/bin/env sh .sqa/script.gamy-olive-spitz.sh
+        container: qc.sty_cozy-bistre-newfoundland
+      github.com/interTwin-eu/itwinai jsonlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.flaky-magnolia-dalmatian.sh
+        container: qc.sty_gimpy-corn-spider
   QC.Uni:
     repos:
-      github.com/interTwin-eu/itwinai pytest:
+      github.com/interTwin-eu/itwinai commands:
         commands:
-        - /usr/bin/env sh .sqa/script.squeaky-zucchini-tarsier.sh
-        container: qc.uni_woolly-magenta-mau
+        - /usr/bin/env sh .sqa/script.leaky-buff-dodo.sh
+        container: qc.uni_lousy-bronze-skunk
   QC.Ver:
     repos:
       github.com/interTwin-eu/itwinai get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.blurry-cardinal-terrier.sh
-        container: qc.ver_hilly-myrtle-moose
+        - /usr/bin/env sh .sqa/script.baggy-chestnut-cockroach.sh
+        container: qc.ver_skimpy-lemon-cougar
 timeout: 5400
