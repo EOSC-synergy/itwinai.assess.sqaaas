@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: release/2.2.1
+      branch: main
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/interTwin-eu/itwinai:
       branch: main
@@ -15,68 +15,68 @@ sqa_criteria:
     repos:
       github.com/interTwin-eu/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.breezy-saffron-bordeaux.sh
-        container: qc.acc_crabby-ruby-kiwi
+        - /usr/bin/env sh .sqa/script.goopy-khaki-tang.sh
+        container: qc.acc_wimpy-alizarin-llama
   QC.Doc:
     repos:
       github.com/interTwin-eu/itwinai find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gummy-ecru-raccoon.sh
-        container: qc.doc_shabby-firebrick-akbash
+        - /usr/bin/env sh .sqa/script.craggy-emerald-flounder.sh
+        container: qc.doc_flaky-tomato-malamute
       github.com/interTwin-eu/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.muggy-lavender-gharial.sh
-        container: qc.doc_tasty-linen-shrimp
+        - /usr/bin/env sh .sqa/script.geeky-yellow-chihuahua.sh
+        container: qc.doc_nerdy-cerulean-termite
       github.com/interTwin-eu/itwinai markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.sickly-peach-koala.sh
-        container: qc.doc_homely-jade-newfoundland
+        - /usr/bin/env sh .sqa/script.trippy-celadon-dog.sh
+        container: qc.doc_grumpy-pink-shrew
       github.com/interTwin-eu/itwinai restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-beige-lynx.sh
-        container: qc.doc_bluesy-sangria-grouse
+        - /usr/bin/env sh .sqa/script.lovely-russet-retriever.sh
+        container: qc.doc_slaphappy-ivory-eel
   QC.Lic:
     repos:
       github.com/interTwin-eu/itwinai licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-yellow-shrimp.sh
-        container: qc.lic_lousy-aquamarine-cattle
+        - /usr/bin/env sh .sqa/script.flabby-red-mongoose.sh
+        container: qc.lic_flabby-white-snail
   QC.Met:
     repos:
       github.com/interTwin-eu/itwinai cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.lovely-indigo-eagle.sh
-        container: qc.met_hasty-pear-fowl
+        - /usr/bin/env sh .sqa/script.surly-grey-axolotl.sh
+        container: qc.met_gamy-xanthic-wombat
   QC.Sec:
     repos:
       github.com/interTwin-eu/itwinai bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-emerald-dogfish.sh
-        container: qc.sec_flabby-tangerine-impala
+        - /usr/bin/env sh .sqa/script.hilly-celadon-penguin.sh
+        container: qc.sec_shabby-ultramarine-loon
   QC.Sty:
     repos:
       github.com/interTwin-eu/itwinai flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.sleazy-eggplant-chow.sh
-        container: qc.sty_gloppy-tomato-buzzard
+        - /usr/bin/env sh .sqa/script.chummy-brass-dachshund.sh
+        container: qc.sty_trippy-olivine-opossum
       github.com/interTwin-eu/itwinai hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.lovely-linen-malamute.sh
-        container: qc.sty_shabby-violet-ocelot
+        - /usr/bin/env sh .sqa/script.flaky-maroon-quetzal.sh
+        container: qc.sty_pokey-brown-manatee
       github.com/interTwin-eu/itwinai jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.flimsy-bistre-wildebeest.sh
-        container: qc.sty_stealthy-brass-worm
+        - /usr/bin/env sh .sqa/script.cranky-burgundy-corgi.sh
+        container: qc.sty_blurry-amethyst-urchin
   QC.Uni:
     repos:
       github.com/interTwin-eu/itwinai commands:
         commands:
-        - /usr/bin/env sh .sqa/script.tacky-crimson-armadillo.sh
-        container: qc.uni_hazy-fuchsia-setter
+        - /usr/bin/env sh .sqa/script.lanky-jade-heron.sh
+        container: qc.uni_wheezy-xanthic-frise
   QC.Ver:
     repos:
       github.com/interTwin-eu/itwinai get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.smelly-ochre-flamingo.sh
-        container: qc.ver_blurry-smalt-dalmatian
+        - /usr/bin/env sh .sqa/script.foggy-russet-markhor.sh
+        container: qc.ver_skanky-cyan-peccary
 timeout: 5400
