@@ -15,6 +15,6 @@ sqa_criteria:
     repos:
       github.com/interTwin-eu/itwinai flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-ruby-bombay.sh
-        container: qc.sty_snippy-amber-whale
+        - /usr/bin/env sh .sqa/script.ready-ecru-dodo.sh
+        container: qc.sty_pasty-carmine-affenpinscher
 timeout: 5400
