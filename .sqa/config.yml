@@ -11,72 +11,10 @@ environment:
   JPL_DOCKERFORCEBUILD: enabled
   JPL_KEEPGOING: enabled
 sqa_criteria:
-  QC.Acc:
-    repos:
-      github.com/interTwin-eu/itwinai git:
-        commands:
-        - /usr/bin/env sh .sqa/script.paltry-heliotrope-leopard.sh
-        container: qc.acc_woolly-blue-angora
-  QC.Doc:
-    repos:
-      github.com/interTwin-eu/itwinai find_doc_files.py:
-        commands:
-        - /usr/bin/env sh .sqa/script.bluesy-silver-antelope.sh
-        container: qc.doc_jumpy-asparagus-mongoose
-      github.com/interTwin-eu/itwinai git:
-        commands:
-        - /usr/bin/env sh .sqa/script.seedy-salmon-squirt.sh
-        container: qc.doc_woozy-cerise-capybara
-      github.com/interTwin-eu/itwinai markdownlint:
-        commands:
-        - /usr/bin/env sh .sqa/script.boozy-champagne-eleuth.sh
-        container: qc.doc_gloppy-grey-rattlesnake
-      github.com/interTwin-eu/itwinai restructuredtext-lint:
-        commands:
-        - /usr/bin/env sh .sqa/script.hilly-tan-bloodhound.sh
-        container: qc.doc_queasy-brass-cattle
-  QC.Lic:
-    repos:
-      github.com/interTwin-eu/itwinai licensee:
-        commands:
-        - /usr/bin/env sh .sqa/script.lovely-bistre-urchin.sh
-        container: qc.lic_hasty-purple-tapir
-  QC.Met:
-    repos:
-      github.com/interTwin-eu/itwinai cff-converter-python:
-        commands:
-        - /usr/bin/env sh .sqa/script.woolly-amethyst-weasel.sh
-        container: qc.met_lumpy-cerise-ibis
-  QC.Sec:
-    repos:
-      github.com/interTwin-eu/itwinai bandit:
-        commands:
-        - /usr/bin/env sh .sqa/script.dorky-pumpkin-koala.sh
-        container: qc.sec_silly-mauve-termite
   QC.Sty:
     repos:
       github.com/interTwin-eu/itwinai flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.lovely-sapphire-horse.sh
-        container: qc.sty_cheeky-sapphire-beaver
-      github.com/interTwin-eu/itwinai hadolint:
-        commands:
-        - /usr/bin/env sh .sqa/script.wimpy-periwinkle-opossum.sh
-        container: qc.sty_thirsty-tomato-sheep
-      github.com/interTwin-eu/itwinai jsonlint:
-        commands:
-        - /usr/bin/env sh .sqa/script.hilly-saffron-dachshund.sh
-        container: qc.sty_foggy-flax-ragdoll
-  QC.Uni:
-    repos:
-      github.com/interTwin-eu/itwinai commands:
-        commands:
-        - /usr/bin/env sh .sqa/script.bluesy-salmon-beaver.sh
-        container: qc.uni_snappy-crimson-buzzard
-  QC.Ver:
-    repos:
-      github.com/interTwin-eu/itwinai get_git_tags.py:
-        commands:
-        - /usr/bin/env sh .sqa/script.hilly-sangria-birman.sh
-        container: qc.ver_stuffy-azure-dugong
+        - /usr/bin/env sh .sqa/script.slimy-ruby-bombay.sh
+        container: qc.sty_snippy-amber-whale
 timeout: 5400
