@@ -15,68 +15,68 @@ sqa_criteria:
     repos:
       github.com/interTwin-eu/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.randy-smalt-impala.sh
-        container: qc.acc_woozy-olive-coati
+        - /usr/bin/env sh .sqa/script.baggy-magnolia-frog.sh
+        container: qc.acc_woozy-aquamarine-chow
   QC.Doc:
     repos:
       github.com/interTwin-eu/itwinai find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.homey-tan-insect.sh
-        container: qc.doc_silly-lime-malamute
+        - /usr/bin/env sh .sqa/script.zippy-heliotrope-tamarin.sh
+        container: qc.doc_bluesy-thistle-saola
       github.com/interTwin-eu/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.lousy-dandelion-bat.sh
-        container: qc.doc_ready-ivory-bobcat
+        - /usr/bin/env sh .sqa/script.craggy-black-manatee.sh
+        container: qc.doc_stuffy-ivory-cockroach
       github.com/interTwin-eu/itwinai markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-platinum-leopard.sh
-        container: qc.doc_snippy-eggplant-snail
+        - /usr/bin/env sh .sqa/script.gummy-platinum-lizard.sh
+        container: qc.doc_muzzy-persimmon-foxhound
       github.com/interTwin-eu/itwinai restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.stinky-orchid-tapir.sh
-        container: qc.doc_chewy-azure-clam
+        - /usr/bin/env sh .sqa/script.silly-puce-dormouse.sh
+        container: qc.doc_sloppy-sapphire-ibis
   QC.Lic:
     repos:
       github.com/interTwin-eu/itwinai licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-red-mule.sh
-        container: qc.lic_hazy-teal-retriever
+        - /usr/bin/env sh .sqa/script.ugly-ivory-warthog.sh
+        container: qc.lic_messy-alizarin-earwig
   QC.Met:
     repos:
       github.com/interTwin-eu/itwinai cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.gloppy-lilac-havanese.sh
-        container: qc.met_flabby-fuchsia-chamois
+        - /usr/bin/env sh .sqa/script.gamy-grey-panda.sh
+        container: qc.met_lanky-burgundy-hamster
   QC.Sec:
     repos:
       github.com/interTwin-eu/itwinai bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.wheezy-alizarin-indri.sh
-        container: qc.sec_droopy-alizarin-mayfly
+        - /usr/bin/env sh .sqa/script.breezy-rose-budgerigar.sh
+        container: qc.sec_slaphappy-white-mist
   QC.Sty:
     repos:
       github.com/interTwin-eu/itwinai flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-emerald-leopard.sh
-        container: qc.sty_gummy-cyan-seahorse
+        - /usr/bin/env sh .sqa/script.surly-plum-buzzard.sh
+        container: qc.sty_flabby-orange-ragdoll
       github.com/interTwin-eu/itwinai hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.baggy-smalt-earwig.sh
-        container: qc.sty_hazy-brass-audemer
+        - /usr/bin/env sh .sqa/script.hasty-yellow-lizard.sh
+        container: qc.sty_skinny-indigo-saola
       github.com/interTwin-eu/itwinai jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-smalt-bee.sh
-        container: qc.sty_trippy-lavender-eleuth
+        - /usr/bin/env sh .sqa/script.pasty-cyan-neanderthal.sh
+        container: qc.sty_surly-lemon-cheetah
   QC.Uni:
     repos:
       github.com/interTwin-eu/itwinai commands:
         commands:
-        - /usr/bin/env sh .sqa/script.snoopy-gold-wolf.sh
-        container: qc.uni_geeky-platinum-raccoon
+        - /usr/bin/env sh .sqa/script.wimpy-viridian-tiger.sh
+        container: qc.uni_gimpy-emerald-budgerigar
   QC.Ver:
     repos:
       github.com/interTwin-eu/itwinai get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.squeaky-teal-sheep.sh
-        container: qc.ver_sleazy-ivory-kingfisher
+        - /usr/bin/env sh .sqa/script.sloppy-tan-newt.sh
+        container: qc.ver_snappy-cream-lobster
 timeout: 5400
