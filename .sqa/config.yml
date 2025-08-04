@@ -15,68 +15,68 @@ sqa_criteria:
     repos:
       github.com/interTwin-eu/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.gimpy-gamboge-lemming.sh
-        container: qc.acc_homey-platinum-dormouse
+        - /usr/bin/env sh .sqa/script.randy-orchid-tuatara.sh
+        container: qc.acc_nerdy-brass-cat
   QC.Doc:
     repos:
       github.com/interTwin-eu/itwinai find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-flax-tamarin.sh
-        container: qc.doc_snazzy-harlequin-worm
+        - /usr/bin/env sh .sqa/script.squeaky-rust-maltese.sh
+        container: qc.doc_hilly-auburn-dragon
       github.com/interTwin-eu/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.pasty-tangerine-mongoose.sh
-        container: qc.doc_bluesy-charcoal-blue
+        - /usr/bin/env sh .sqa/script.blurry-ultramarine-crane.sh
+        container: qc.doc_hilly-gold-dragonfly
       github.com/interTwin-eu/itwinai markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-eggplant-hummingbird.sh
-        container: qc.doc_tacky-cyan-turkey
+        - /usr/bin/env sh .sqa/script.shabby-viridian-walrus.sh
+        container: qc.doc_stuffy-cinnabar-uguisu
       github.com/interTwin-eu/itwinai restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.woolly-goldenrod-stoat.sh
-        container: qc.doc_gummy-firebrick-kiwi
+        - /usr/bin/env sh .sqa/script.squeaky-lime-elephant.sh
+        container: qc.doc_ugly-khaki-rattlesnake
   QC.Lic:
     repos:
       github.com/interTwin-eu/itwinai licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.sloppy-xanthic-nightingale.sh
-        container: qc.lic_skimpy-yellow-manatee
+        - /usr/bin/env sh .sqa/script.ready-salmon-stoat.sh
+        container: qc.lic_hazy-wheat-heron
   QC.Met:
     repos:
       github.com/interTwin-eu/itwinai cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.frumpy-burgundy-axolotl.sh
-        container: qc.met_bumpy-wheat-walrus
+        - /usr/bin/env sh .sqa/script.stuffy-apricot-paradise.sh
+        container: qc.met_sloppy-peach-mongrel
   QC.Sec:
     repos:
       github.com/interTwin-eu/itwinai bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.gamy-wisteria-gopher.sh
-        container: qc.sec_crappy-zucchini-mau
+        - /usr/bin/env sh .sqa/script.snazzy-bronze-crane.sh
+        container: qc.sec_snoopy-green-urchin
   QC.Sty:
     repos:
       github.com/interTwin-eu/itwinai flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-plum-crane.sh
-        container: qc.sty_slaphappy-xanthic-quetzal
+        - /usr/bin/env sh .sqa/script.hilly-cyan-hedgehog.sh
+        container: qc.sty_muggy-copper-indri
       github.com/interTwin-eu/itwinai hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.smelly-seashell-bulldog.sh
-        container: qc.sty_dorky-cobalt-starfish
+        - /usr/bin/env sh .sqa/script.pretty-purple-spaniel.sh
+        container: qc.sty_lanky-chocolate-bullfrog
       github.com/interTwin-eu/itwinai jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.homey-auburn-woodpecker.sh
-        container: qc.sty_squeaky-bronze-stingray
+        - /usr/bin/env sh .sqa/script.hilly-chocolate-cockroach.sh
+        container: qc.sty_cloudy-puce-bulldog
   QC.Uni:
     repos:
-      github.com/interTwin-eu/itwinai pytest:
+      github.com/interTwin-eu/itwinai commands:
         commands:
-        - /usr/bin/env sh .sqa/script.messy-tangerine-uguisu.sh
-        container: qc.uni_zippy-platinum-albatross
+        - /usr/bin/env sh .sqa/script.gimpy-tan-hound.sh
+        container: qc.uni_muggy-sepia-corgi
   QC.Ver:
     repos:
       github.com/interTwin-eu/itwinai get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cloudy-taupe-javanese.sh
-        container: qc.ver_beady-ecru-mongrel
+        - /usr/bin/env sh .sqa/script.stealthy-chestnut-fox.sh
+        container: qc.ver_blurry-scarlet-saola
 timeout: 5400
