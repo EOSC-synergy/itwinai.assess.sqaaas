@@ -5,5 +5,5 @@
 
 (
 cd github.com/PalomoIFCA/itwinai &&
-    hadolint env-files/tensorflow/Dockerfile env-files/torch/Dockerfile env-files/torch/jupyter/Dockerfile use-cases/3dgan/Dockerfile use-cases/mnist/torch/Dockerfile tutorials/distributed-ml/torch-kubeflow-1/Dockerfile --failure-threshold error
+    hadolint env-files/tensorflow/Dockerfile use-cases/3dgan/Dockerfile use-cases/mnist/torch/Dockerfile tutorials/distributed-ml/torch-kubeflow-1/Dockerfile --failure-threshold error
 )
