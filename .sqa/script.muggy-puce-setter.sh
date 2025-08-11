@@ -4,6 +4,6 @@
 # SPDX-License-Identifier: GPL-3.0-only
 
 (
-cd github.com/interTwin-eu/itwinai &&
-    hadolint env-files/tensorflow/Dockerfile use-cases/3dgan/Dockerfile use-cases/mnist/torch/Dockerfile tutorials/distributed-ml/torch-kubeflow-1/Dockerfile --failure-threshold error
+cd github.com/PalomoIFCA/itwinai &&
+    licensee detect . --confidence 60 --json 
 )
