@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: feature/Ophidia
+      branch: main
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/PalomoIFCA/itwinai:
       branch: patch-sqaas
@@ -15,68 +15,68 @@ sqa_criteria:
     repos:
       github.com/PalomoIFCA/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-magenta-kiwi.sh
-        container: qc.acc_lumpy-heliotrope-lynx
+        - /usr/bin/env sh .sqa/script.nippy-bronze-dollar.sh
+        container: qc.acc_muzzy-heliotrope-moorhen
   QC.Doc:
     repos:
       github.com/PalomoIFCA/itwinai find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cheeky-denim-alligator.sh
-        container: qc.doc_gloppy-cerulean-urchin
+        - /usr/bin/env sh .sqa/script.squeaky-cinnamon-oyster.sh
+        container: qc.doc_jumpy-denim-weasel
       github.com/PalomoIFCA/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.leaky-tan-mandrill.sh
-        container: qc.doc_lumpy-tomato-kangaroo
+        - /usr/bin/env sh .sqa/script.geeky-magenta-axolotl.sh
+        container: qc.doc_surly-scarlet-bear
       github.com/PalomoIFCA/itwinai markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.cloudy-coral-peccary.sh
-        container: qc.doc_muzzy-peach-rattlesnake
+        - /usr/bin/env sh .sqa/script.snippy-pink-ibis.sh
+        container: qc.doc_tasty-cinnamon-elephant
       github.com/PalomoIFCA/itwinai restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-yellow-urchin.sh
-        container: qc.doc_crabby-cardinal-bloodhound
+        - /usr/bin/env sh .sqa/script.frumpy-eggplant-wrasse.sh
+        container: qc.doc_messy-red-mastiff
   QC.Lic:
     repos:
       github.com/PalomoIFCA/itwinai licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.woozy-cerise-malamute.sh
-        container: qc.lic_hasty-beige-flounder
+        - /usr/bin/env sh .sqa/script.skinny-wisteria-leopard.sh
+        container: qc.lic_skimpy-blue-toucan
   QC.Met:
     repos:
       github.com/PalomoIFCA/itwinai cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-amaranth-sloth.sh
-        container: qc.met_wheezy-xanthic-labradoodle
+        - /usr/bin/env sh .sqa/script.hazy-zucchini-mouse.sh
+        container: qc.met_zippy-tomato-frog
   QC.Sec:
     repos:
       github.com/PalomoIFCA/itwinai bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.crappy-lavender-scorpion.sh
-        container: qc.sec_sloppy-russet-cuttlefish
+        - /usr/bin/env sh .sqa/script.randy-firebrick-akita.sh
+        container: qc.sec_muggy-harlequin-quetzal
   QC.Sty:
     repos:
       github.com/PalomoIFCA/itwinai flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-magnolia-moorhen.sh
-        container: qc.sty_queasy-aquamarine-gibbon
+        - /usr/bin/env sh .sqa/script.crappy-gamboge-shrimp.sh
+        container: qc.sty_trippy-seashell-dodo
       github.com/PalomoIFCA/itwinai hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-lavender-scorpion.sh
-        container: qc.sty_gimpy-celadon-emu
+        - /usr/bin/env sh .sqa/script.homey-jade-ray.sh
+        container: qc.sty_freaky-sangria-horse
       github.com/PalomoIFCA/itwinai jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-crimson-fowl.sh
-        container: qc.sty_randy-rose-fish
+        - /usr/bin/env sh .sqa/script.paltry-harlequin-hornet.sh
+        container: qc.sty_silly-sangria-akita
   QC.Uni:
     repos:
-      github.com/PalomoIFCA/itwinai commands:
+      github.com/PalomoIFCA/itwinai pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.sleazy-aquamarine-harrier.sh
-        container: qc.uni_cranky-magnolia-turtle
+        - /usr/bin/env sh .sqa/script.messy-chocolate-forest.sh
+        container: qc.uni_paltry-rose-bulldog
   QC.Ver:
     repos:
       github.com/PalomoIFCA/itwinai get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.flabby-cornflower-uguisu.sh
-        container: qc.ver_boozy-tan-clam
+        - /usr/bin/env sh .sqa/script.sloppy-heliotrope-weasel.sh
+        container: qc.ver_skimpy-denim-cougar
 timeout: 5400
