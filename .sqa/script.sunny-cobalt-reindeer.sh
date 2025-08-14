@@ -6,6 +6,5 @@
 (
 cd github.com/interTwin-eu/itwinai &&
     make torch-env-cpu&&
-    make tensorflow-env-cpu&&
     .venv-pytorch/bin/pytest -v ./tests/ -m "not hpc and not memory_heavy and not tensorflow"
 )
