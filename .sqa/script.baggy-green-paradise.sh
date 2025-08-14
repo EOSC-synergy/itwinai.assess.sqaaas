@@ -4,6 +4,6 @@
 # SPDX-License-Identifier: GPL-3.0-only
 
 (
-cd github.com/interTwin-eu/itwinai &&
-    licensee detect . --confidence 60 --json 
+cd github.com/PalomoIFCA/itwinai &&
+    flake8 .
 )
