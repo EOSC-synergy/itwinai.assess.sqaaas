@@ -6,5 +6,5 @@
 (
 cd github.com/interTwin-eu/itwinai &&
     make torch-env-cpu&&
-    .venv-pytorch/bin/pytest -v ./tests/ -m "not hpc and not memory_heavy and not tensorflow"
+    .venv-pytorch/bin/pytest -v ./tests/ --disable-warnings -n logical --dist loadfile -m "not hpc and not memory_heavy and not tensorflow"
 )
