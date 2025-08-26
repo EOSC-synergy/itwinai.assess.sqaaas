@@ -15,68 +15,68 @@ sqa_criteria:
     repos:
       github.com/interTwin-eu/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.jumpy-cornflower-octopus.sh
-        container: qc.acc_gloppy-brass-monster
+        - /usr/bin/env sh .sqa/script.silly-cream-zonkey.sh
+        container: qc.acc_paltry-wisteria-ladybird
   QC.Doc:
     repos:
       github.com/interTwin-eu/itwinai find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.queasy-corn-spitz.sh
-        container: qc.doc_chewy-firebrick-booby
+        - /usr/bin/env sh .sqa/script.sleazy-amaranth-setter.sh
+        container: qc.doc_tasty-white-rat
       github.com/interTwin-eu/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.shabby-asparagus-discus.sh
-        container: qc.doc_thirsty-russet-angora
+        - /usr/bin/env sh .sqa/script.droopy-purple-quail.sh
+        container: qc.doc_bumpy-russet-lemming
       github.com/interTwin-eu/itwinai markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-cinnamon-zorse.sh
-        container: qc.doc_snoopy-chestnut-quail
+        - /usr/bin/env sh .sqa/script.homely-corn-baboon.sh
+        container: qc.doc_boozy-cream-hare
       github.com/interTwin-eu/itwinai restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.queasy-cream-discus.sh
-        container: qc.doc_randy-jade-giraffe
+        - /usr/bin/env sh .sqa/script.paltry-heliotrope-foxhound.sh
+        container: qc.doc_hazy-harlequin-horse
   QC.Lic:
     repos:
       github.com/interTwin-eu/itwinai licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-gamboge-clam.sh
-        container: qc.lic_hasty-flax-affenpinscher
+        - /usr/bin/env sh .sqa/script.baggy-harlequin-termite.sh
+        container: qc.lic_seedy-amber-chinchilla
   QC.Met:
     repos:
       github.com/interTwin-eu/itwinai cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-salmon-zebra.sh
-        container: qc.met_fuzzy-red-ladybird
+        - /usr/bin/env sh .sqa/script.gloppy-asparagus-rat.sh
+        container: qc.met_snippy-carmine-ostrich
   QC.Sec:
     repos:
       github.com/interTwin-eu/itwinai bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.shabby-chocolate-wolfhound.sh
-        container: qc.sec_dorky-tan-spitz
+        - /usr/bin/env sh .sqa/script.geeky-cornflower-chamois.sh
+        container: qc.sec_seedy-zucchini-rattlesnake
   QC.Sty:
     repos:
       github.com/interTwin-eu/itwinai flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.beady-brown-monster.sh
-        container: qc.sty_tacky-sangria-newt
+        - /usr/bin/env sh .sqa/script.nerdy-orange-okapi.sh
+        container: qc.sty_shabby-thistle-bloodhound
       github.com/interTwin-eu/itwinai hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.skinny-cornflower-hedgehog.sh
-        container: qc.sty_scummy-jade-mandrill
+        - /usr/bin/env sh .sqa/script.foggy-wheat-balinese.sh
+        container: qc.sty_breezy-crimson-jackal
       github.com/interTwin-eu/itwinai jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.leaky-platinum-newt.sh
-        container: qc.sty_cranky-alizarin-hornet
+        - /usr/bin/env sh .sqa/script.lovely-olive-ocelot.sh
+        container: qc.sty_snazzy-ochre-rhinoceros
   QC.Uni:
     repos:
-      github.com/interTwin-eu/itwinai pytest:
+      github.com/interTwin-eu/itwinai commands:
         commands:
-        - /usr/bin/env sh .sqa/script.beady-wisteria-leopard.sh
-        container: qc.uni_messy-rose-zebra
+        - /usr/bin/env sh .sqa/script.sleazy-cinnabar-cockroach.sh
+        container: qc.uni_woolly-mauve-lobster
   QC.Ver:
     repos:
       github.com/interTwin-eu/itwinai get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-vermilion-armadillo.sh
-        container: qc.ver_trippy-gamboge-hedgehog
+        - /usr/bin/env sh .sqa/script.shabby-auburn-clam.sh
+        container: qc.ver_homey-seashell-numbat
 timeout: 5400
