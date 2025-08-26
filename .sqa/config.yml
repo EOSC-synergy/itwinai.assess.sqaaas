@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: feature/Ophidia
+      branch: feature/Ophidia-test
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/PalomoIFCA/itwinai:
       branch: patch-sqaas
@@ -15,68 +15,68 @@ sqa_criteria:
     repos:
       github.com/PalomoIFCA/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-corn-quail.sh
-        container: qc.acc_randy-orchid-chin
+        - /usr/bin/env sh .sqa/script.blurry-lilac-lynx.sh
+        container: qc.acc_ready-alizarin-newt
   QC.Doc:
     repos:
       github.com/PalomoIFCA/itwinai find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.paltry-burgundy-hummingbird.sh
-        container: qc.doc_silly-mustard-coyote
+        - /usr/bin/env sh .sqa/script.droopy-emerald-seahorse.sh
+        container: qc.doc_thirsty-apricot-hedgehog
       github.com/PalomoIFCA/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-beige-booby.sh
-        container: qc.doc_clammy-tangerine-dhole
+        - /usr/bin/env sh .sqa/script.scaly-gold-crocodile.sh
+        container: qc.doc_breezy-cyan-tarsier
       github.com/PalomoIFCA/itwinai markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.ugly-cerulean-tzu.sh
-        container: qc.doc_cloudy-harlequin-cougar
+        - /usr/bin/env sh .sqa/script.blurry-lemon-buzzard.sh
+        container: qc.doc_messy-burgundy-tapir
       github.com/PalomoIFCA/itwinai restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.silly-rust-goose.sh
-        container: qc.doc_clammy-alizarin-guppy
+        - /usr/bin/env sh .sqa/script.homely-magenta-falcon.sh
+        container: qc.doc_pokey-sapphire-neanderthal
   QC.Lic:
     repos:
       github.com/PalomoIFCA/itwinai licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.flimsy-cobalt-mist.sh
-        container: qc.lic_bumpy-sapphire-hyrax
+        - /usr/bin/env sh .sqa/script.skinny-azure-sparrow.sh
+        container: qc.lic_lanky-amaranth-dane
   QC.Met:
     repos:
       github.com/PalomoIFCA/itwinai cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.cozy-charcoal-wombat.sh
-        container: qc.met_snappy-rose-spitz
+        - /usr/bin/env sh .sqa/script.homely-fuchsia-forest.sh
+        container: qc.met_stuffy-cardinal-schnauzer
   QC.Sec:
     repos:
       github.com/PalomoIFCA/itwinai bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.snoopy-orange-fox.sh
-        container: qc.sec_ready-brown-markhor
+        - /usr/bin/env sh .sqa/script.muggy-firebrick-binturong.sh
+        container: qc.sec_beady-khaki-hummingbird
   QC.Sty:
     repos:
       github.com/PalomoIFCA/itwinai flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.greasy-wisteria-wasp.sh
-        container: qc.sty_foggy-platinum-monkey
+        - /usr/bin/env sh .sqa/script.snoopy-saffron-shrew.sh
+        container: qc.sty_ugly-denim-cichlid
       github.com/PalomoIFCA/itwinai hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.lovely-yellow-turkey.sh
-        container: qc.sty_skanky-burgundy-hare
+        - /usr/bin/env sh .sqa/script.wheezy-celadon-fish.sh
+        container: qc.sty_scanty-firebrick-dodo
       github.com/PalomoIFCA/itwinai jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-coral-balinese.sh
-        container: qc.sty_lovely-wisteria-hedgehog
+        - /usr/bin/env sh .sqa/script.dorky-magnolia-turtle.sh
+        container: qc.sty_muzzy-cyan-woodpecker
   QC.Uni:
     repos:
       github.com/PalomoIFCA/itwinai pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.geeky-lilac-kakapo.sh
-        container: qc.uni_shaky-russet-orangutan
+        - /usr/bin/env sh .sqa/script.hasty-myrtle-stoat.sh
+        container: qc.uni_skanky-vermilion-flamingo
   QC.Ver:
     repos:
       github.com/PalomoIFCA/itwinai get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sunny-mustard-collie.sh
-        container: qc.ver_gloppy-charcoal-chimpanzee
+        - /usr/bin/env sh .sqa/script.sickly-xanthic-goat.sh
+        container: qc.ver_smelly-periwinkle-chimpanzee
 timeout: 5400
