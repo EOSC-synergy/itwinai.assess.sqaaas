@@ -4,6 +4,6 @@
 # SPDX-License-Identifier: GPL-3.0-only
 
 (
-cd github.com/interTwin-eu/itwinai &&
-    get_git_tags.py
+cd github.com/PalomoIFCA/itwinai &&
+    git rev-parse --is-inside-work-tree 
 )
