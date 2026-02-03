@@ -4,7 +4,6 @@
 # SPDX-License-Identifier: GPL-3.0-only
 
 (
-cd github.com/interTwin-eu/itwinai &&
-    make torch-env-cpu&&
-    .venv-pytorch/bin/pytest -v ./tests/ --disable-warnings -n logical --dist loadfile -m "not hpc and not memory_heavy and not tensorflow"
+cd github.com/PalomoIFCA/itwinai &&
+    hadolint env-files/tensorflow/Dockerfile tutorials/distributed-ml/torch-kubeflow-1/Dockerfile use-cases/3dgan/Dockerfile use-cases/mnist/torch/Dockerfile --failure-threshold error
 )
