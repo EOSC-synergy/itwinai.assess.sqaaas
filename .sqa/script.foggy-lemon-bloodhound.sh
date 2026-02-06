@@ -5,5 +5,5 @@
 
 (
 cd github.com/interTwin-eu/itwinai &&
-    flake8 .
+    pytest  --json-report  --json-report-indent 4
 )
