@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: feature/pynblint
+      branch: feature/Ophidia
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/interTwin-eu/itwinai:
       branch: main
@@ -15,60 +15,68 @@ sqa_criteria:
     repos:
       github.com/interTwin-eu/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-linen-binturong.sh
-        container: qc.acc_craggy-denim-insect
+        - /usr/bin/env sh .sqa/script.hilly-cyan-stingray.sh
+        container: qc.acc_frumpy-razzmatazz-uakari
   QC.Doc:
     repos:
       github.com/interTwin-eu/itwinai find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.greasy-gold-vulture.sh
-        container: qc.doc_lanky-sepia-retriever
+        - /usr/bin/env sh .sqa/script.breezy-pumpkin-owl.sh
+        container: qc.doc_slaphappy-yellow-beaver
       github.com/interTwin-eu/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-russet-elephant.sh
-        container: qc.doc_wiggy-coral-beagle
+        - /usr/bin/env sh .sqa/script.silly-dandelion-fousek.sh
+        container: qc.doc_hasty-ruby-balinese
       github.com/interTwin-eu/itwinai markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.lousy-corn-rat.sh
-        container: qc.doc_pasty-olive-ostrich
+        - /usr/bin/env sh .sqa/script.baggy-emerald-dormouse.sh
+        container: qc.doc_skinny-cerise-chihuahua
       github.com/interTwin-eu/itwinai restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.sleazy-blue-panda.sh
-        container: qc.doc_boozy-ultramarine-donkey
+        - /usr/bin/env sh .sqa/script.sickly-gold-paradise.sh
+        container: qc.doc_cozy-cerulean-cat
   QC.Lic:
     repos:
       github.com/interTwin-eu/itwinai licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-xanthic-coyote.sh
-        container: qc.lic_flaky-mustard-emu
+        - /usr/bin/env sh .sqa/script.sleepy-thistle-coyote.sh
+        container: qc.lic_crabby-vermilion-cockroach
   QC.Met:
     repos:
       github.com/interTwin-eu/itwinai cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.lousy-linen-giraffe.sh
-        container: qc.met_gummy-aquamarine-cattle
+        - /usr/bin/env sh .sqa/script.shaggy-cream-earwig.sh
+        container: qc.met_seedy-violet-mau
   QC.Sec:
     repos:
       github.com/interTwin-eu/itwinai bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.whiny-wisteria-russel.sh
-        container: qc.sec_chewy-celadon-lemur
+        - /usr/bin/env sh .sqa/script.gummy-amethyst-squirrel.sh
+        container: qc.sec_clammy-seashell-otter
   QC.Sty:
     repos:
-      github.com/interTwin-eu/itwinai pynblint.py:
+      github.com/interTwin-eu/itwinai flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.surly-wisteria-numbat.sh
-        container: qc.sty_woolly-russet-turkey
+        - /usr/bin/env sh .sqa/script.silly-cardinal-termite.sh
+        container: qc.sty_slaphappy-burgundy-rottweiler
+      github.com/interTwin-eu/itwinai hadolint:
+        commands:
+        - /usr/bin/env sh .sqa/script.snippy-violet-bongo.sh
+        container: qc.sty_lovely-linen-sheep
+      github.com/interTwin-eu/itwinai jsonlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.homey-firebrick-affenpinscher.sh
+        container: qc.sty_trippy-white-monkey
   QC.Uni:
     repos:
-      github.com/interTwin-eu/itwinai pytest:
+      github.com/interTwin-eu/itwinai commands:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-lemon-bloodhound.sh
-        container: qc.uni_woolly-lime-nightingale
+        - /usr/bin/env sh .sqa/script.skinny-amethyst-lionfish.sh
+        container: qc.uni_stuffy-aquamarine-skunk
   QC.Ver:
     repos:
       github.com/interTwin-eu/itwinai get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gummy-cinnabar-tzu.sh
-        container: qc.ver_ugly-red-wombat
+        - /usr/bin/env sh .sqa/script.scanty-brass-wolf.sh
+        container: qc.ver_slimy-orange-eleuth
 timeout: 5400

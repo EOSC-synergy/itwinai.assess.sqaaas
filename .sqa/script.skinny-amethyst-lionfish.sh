@@ -5,5 +5,6 @@
 
 (
 cd github.com/interTwin-eu/itwinai &&
-    pynblint.py
+    make torch-env-cpu&&
+    .venv-pytorch/bin/pytest -v ./tests/ --disable-warnings -n logical --dist loadfile -m "not hpc and not memory_heavy and not tensorflow"
 )
