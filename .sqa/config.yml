@@ -15,72 +15,72 @@ sqa_criteria:
     repos:
       github.com/interTwin-eu/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.lagoon_dramatic_giraffe.sh
-        container: qc.acc_marina_skeptical_coyote
+        - /usr/bin/env sh .sqa/script.sage_wise_coyote.sh
+        container: qc.acc_sunset_patient_goose
   QC.Doc:
     repos:
       github.com/interTwin-eu/itwinai find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cinnamon_vibrant_toucan.sh
-        container: qc.doc_sepia_bewildered_spider
+        - /usr/bin/env sh .sqa/script.flamingo_productive_turtle.sh
+        container: qc.doc_red_determined_platypus
       github.com/interTwin-eu/itwinai git:
         commands:
-        - /usr/bin/env sh .sqa/script.heather_graceful_boa.sh
-        container: qc.doc_thistle_mischievous_dugong
+        - /usr/bin/env sh .sqa/script.sage_audacious_cobra.sh
+        container: qc.doc_dahlia_organized_wolverine
       github.com/interTwin-eu/itwinai markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.mahogany_creative_wolf.sh
-        container: qc.doc_indigo_balanced_hyena
+        - /usr/bin/env sh .sqa/script.byzantium_flexible_leopard.sh
+        container: qc.doc_byzantium_authentic_jackal
       github.com/interTwin-eu/itwinai restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.horizon_enigmatic_tiger.sh
-        container: qc.doc_cerise_easygoing_seal
+        - /usr/bin/env sh .sqa/script.chestnut_sympathetic_pangolin.sh
+        container: qc.doc_jasmine_silly_cougar
   QC.Lic:
     repos:
       github.com/interTwin-eu/itwinai licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.coffee_feisty_squid.sh
-        container: qc.lic_flint_sincere_otter
+        - /usr/bin/env sh .sqa/script.orchid_forgiving_reindeer.sh
+        container: qc.lic_fog_enigmatic_weasel
   QC.Met:
     repos:
       github.com/interTwin-eu/itwinai cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.cinnabar_dedicated_camel.sh
-        container: qc.met_smoke_artistic_squid
+        - /usr/bin/env sh .sqa/script.pink_amiable_nighthawk.sh
+        container: qc.met_raven_attentive_kangaroo
   QC.Sec:
     repos:
       github.com/interTwin-eu/itwinai bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.gunmetal_honest_cockatoo.sh
-        container: qc.sec_clementine_compassionate_fox
+        - /usr/bin/env sh .sqa/script.fern_intuitive_stork.sh
+        container: qc.sec_currant_analytical_peacock
   QC.Sty:
     repos:
       github.com/interTwin-eu/itwinai flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.steel_sarcastic_pelican.sh
-        container: qc.sty_slate_reliable_meerkat
+        - /usr/bin/env sh .sqa/script.flamingo_peaceful_spider.sh
+        container: qc.sty_malachite_joyful_ibis
       github.com/interTwin-eu/itwinai hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.chili_meticulous_manta.sh
-        container: qc.sty_lilac_mature_snail
+        - /usr/bin/env sh .sqa/script.claret_sociable_gorilla.sh
+        container: qc.sty_blush_amused_grizzly
       github.com/interTwin-eu/itwinai jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.nutmeg_outgoing_ocelot.sh
-        container: qc.sty_hunter_spontaneous_cheetah
+        - /usr/bin/env sh .sqa/script.linen_shy_jaguar.sh
+        container: qc.sty_rose_respectful_barracuda
       github.com/interTwin-eu/itwinai pynblint.py:
         commands:
-        - /usr/bin/env sh .sqa/script.yellow_melancholy_tiger.sh
-        container: qc.sty_sapphire_compassionate_tapir
+        - /usr/bin/env sh .sqa/script.pink_perceptive_finch.sh
+        container: qc.sty_aqua_unique_groundhog
   QC.Uni:
     repos:
       github.com/interTwin-eu/itwinai commands:
         commands:
-        - /usr/bin/env sh .sqa/script.sienna_whimsical_swan.sh
-        container: qc.uni_gold_mischievous_pegasus
+        - /usr/bin/env sh .sqa/script.yellow_honest_peacock.sh
+        container: qc.uni_linen_hopeful_whale
   QC.Ver:
     repos:
       github.com/interTwin-eu/itwinai get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.mustard_trustworthy_porpoise.sh
-        container: qc.ver_paprika_helpful_bullfrog
+        - /usr/bin/env sh .sqa/script.forest_focused_tarantula.sh
+        container: qc.ver_carmine_realistic_serval
 timeout: 5400
